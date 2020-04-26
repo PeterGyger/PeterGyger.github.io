@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Peter Gyger's Blog
+title: Willkommen in meinem privaten Blog
 email: petergyger@phontonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Hallo! Fragen Sie mich ruhig. 
@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Peter Gyger"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Willkommen. Fragen / Angebote beantworte ich i.d.R. sofort"
+  bio    : "Fragen / Angebote beantworte ich i.d.R. sofort"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"

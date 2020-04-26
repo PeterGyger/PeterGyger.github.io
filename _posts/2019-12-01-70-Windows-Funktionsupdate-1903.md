@@ -34,9 +34,12 @@ Ende gut, alles gut.
 # Quellen  
 
 [What's new in Windows 10, version 1903 IT Pro content](https://docs.microsoft.com/en-us/windows/whats-new/whats-new-windows-10-version-1903)  
+
 [Updating to Windows 10, version 1903 on devices with certain versions of Intel® Rapid Storage Technology (Intel® RST) drivers](https://support.microsoft.com/de-ch/help/4514156/updating-to-windows-10-version-1903-on-devices-with-certain-versions-o)  
+
 [Windows 10 1903 Update Blocked by Old Intel Rapid Storage Drivers](https://www.bleepingcomputer.com/news/microsoft/windows-10-1903-update-blocked-by-old-intel-rapid-storage-drivers/)  
-[Intel® Rapid-Storage-Technik (Intel® RST) Benutzeroberfläche und Treiber ](https://downloadcenter.intel.com/de/download/28966/Intel-Rapid-Storage-Technik-Intel-RST-Benutzeroberfl-che-und-Treiber?product=55005)
+
+[Intel® Rapid-Storage-Technik (Intel® RST) Benutzeroberfläche und Treiber ](https://downloadcenter.intel.com/de/download/28966/Intel-Rapid-Storage-Technik-Intel-RST-Benutzeroberfl-che-und-Treiber?product=55005)  
 
 ## Meta
 
