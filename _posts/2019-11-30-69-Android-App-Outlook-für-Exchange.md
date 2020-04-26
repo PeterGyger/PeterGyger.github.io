@@ -8,13 +8,6 @@ tags:
   - App
 ---
 
-## Meta
-
-Erstellt:	    30. November 2019  
-Modifiziert:	30. November 2019
-
-## Überblick 
-
 Wenn eine Mailadresse über einen Exchange Server läuft, muss die Konifiguration des E-Mail Programmes in der App um ein weiteres Feld ergänzt werden. Dieses heisst "Domäne/Benutzername". Mir ist es in den letzten Jahren zweimal passiert, dass die Konfiguration verloren ging. Daher diese kurze Anleitung. Notiz an mich selbst.  
 
 ![Outlook App](../assets/images/69-app1.jpg)  
@@ -50,3 +43,8 @@ D.h. in meinem Fall muss ich für "Domäne/Benutzername" den Server "hostedsolut
 [Resolve-DnsName, Get-DnsClientCache: DNS-Fehlersuche mit PowerShell](https://www.windowspro.de/script/resolve-dnsname-get-dnsclientcache-dns-fehlersuche-powershell)
 
 [YT-Install dig DNS tool on Windows](https://www.youtube.com/watch?v=fqvGt5S6JDI)  
+
+## Meta
+
+Erstellt:	    30. November 2019  
+Modifiziert:	30. November 2019

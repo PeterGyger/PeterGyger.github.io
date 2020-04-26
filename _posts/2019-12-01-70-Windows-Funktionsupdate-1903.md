@@ -8,13 +8,6 @@ tags:
   - Updatepdate
 ---
 
-## Meta
-
-Erstellt:		27. Juli 2019  
-Modifiziert:	27. Juli 2019
-
-## Überblick  
-
 Dieses Wochenende  mehrere Win 10 Installationen auf die Version 1903 angehoben.  
 Neue Funktionen wie "Sandbox" sind die Highlights. Aber auch Kleinigkeiten wie Im Task-Manager festzulegen, welche Registerkarte beim Start sichtbar sein soll sind toll ("Optionen/Standardregisterkarte festlegen").  
 Das auf der Systempartition für Windows freier Speicherplatz (7% wenn nicht anders eingestellt) reserviert wird, ist sicher eine kontrovers diskutierte Funktion.
@@ -45,3 +38,7 @@ Ende gut, alles gut.
 [Windows 10 1903 Update Blocked by Old Intel Rapid Storage Drivers](https://www.bleepingcomputer.com/news/microsoft/windows-10-1903-update-blocked-by-old-intel-rapid-storage-drivers/)  
 [Intel® Rapid-Storage-Technik (Intel® RST) Benutzeroberfläche und Treiber ](https://downloadcenter.intel.com/de/download/28966/Intel-Rapid-Storage-Technik-Intel-RST-Benutzeroberfl-che-und-Treiber?product=55005)
 
+## Meta
+
+Erstellt:		27. Juli 2019  
+Modifiziert:	27. Juli 2019
