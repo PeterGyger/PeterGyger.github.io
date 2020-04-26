@@ -68,12 +68,6 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/petergyger"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/PeterGyger/petergyger.github.io"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
 
 footer:
   links:
@@ -81,11 +75,6 @@ footer:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/petergyger"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/PeterGyger/petergyger.github.io"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
 
 defaults:
   # _posts
