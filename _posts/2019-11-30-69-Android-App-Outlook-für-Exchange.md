@@ -17,7 +17,7 @@ Modifiziert:	30. November 2019
 
 Wenn eine Mailadresse über einen Exchange Server läuft, muss die Konifiguration des E-Mail Programmes in der App um ein weiteres Feld ergänzt werden. Dieses heisst "Domäne/Benutzername". Mir ist es in den letzten Jahren zweimal passiert, dass die Konfiguration verloren ging. Daher diese kurze Anleitung. Notiz an mich selbst.  
 
-![Outlook App](../assets/images/app1.jpg)  
+![Outlook App](../assets/images/69-app1.jpg)  
 
 Wenn der MX Record auf den gleichen Domainnamen lautet verwendet man diesen. Beispiel:  
 E-Mail:			        max.musterman@beispiel.ch
@@ -29,12 +29,13 @@ Webservice:			[MXToolbox.com](https://mxtoolbox.com/MXLookup.aspx)
 
 Windows Shell CMD:		Mit dem Befehl NSLookup (NameServer Lookup)  
 
-![Outlook App](../assets/images/app3.png)  
+![Outlook App](../assets/images/69-
+app3.png)  
 
 Windows Shell Powershell:	 
 Die CMD Version funktioniert auch in der Powershell. Jedoch hat Powershell dafür das Cmcdlet "Resolve-DnsName". Die Ausgabe wird in diesem Beispiel durch den Befehl "ft -a" komprmiert.  
 
-![Outlook App](../assets/images/app5.png)  
+![Outlook App](../assets/images/69-app5.png)  
 
 D.h. in meinem Fall muss ich für "Domäne/Benutzername" den Server "hostedsolution.ch" eintragen. Ein anderes Beispiel mit dieser Mailserver Konstallation ist die Website "Computerbase.de". Man kann diese Befehle auch mit dieser URL durchspielen. 
 
