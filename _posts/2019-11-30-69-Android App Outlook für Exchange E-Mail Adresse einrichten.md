@@ -10,12 +10,12 @@ tags:
 
 ## Meta
 
-Erstellt:	30. November 2019  
+Erstellt:	    30. November 2019  
 Modifiziert:	30. November 2019
 
 ## Überblick 
 
-Wenn eine Mailadresse über einen Exchange Server läuft, muss die Konifiguration des E-Mail Programmes in der App um ein weiteres Feld ergänzt werden. Dieses heisst "Domäne/Benutzername" oder in früheren App Versionen auch auf zwei Felder aufgeteilt. Mir ist es in den letzten Jahren zweimal passiert, dass die Konfiguration verloren ging. Daher diese kurze Anleitung. Notiz an mich selbst.  
+Wenn eine Mailadresse über einen Exchange Server läuft, muss die Konifiguration des E-Mail Programmes in der App um ein weiteres Feld ergänzt werden. Dieses heisst "Domäne/Benutzername". Mir ist es in den letzten Jahren zweimal passiert, dass die Konfiguration verloren ging. Daher diese kurze Anleitung. Notiz an mich selbst.  
 
 ![Outlook App](../assets/images/app1.jpg)  
 
@@ -31,7 +31,8 @@ Windows Shell CMD:		Mit dem Befehl NSLookup (NameServer Lookup)
 
 ![Outlook App](../assets/images/app3.png)  
 
-Windows Shell Powershell:	Die CMD Version funktioniert auch in der Powershell. Jedoch hat Powershell dafür das Cmcdlet "Resolve-DnsName". Die Ausgabe wird in diesem Beispiel durch den Befehl "ft -a" komprmiert.  
+Windows Shell Powershell:	 
+Die CMD Version funktioniert auch in der Powershell. Jedoch hat Powershell dafür das Cmcdlet "Resolve-DnsName". Die Ausgabe wird in diesem Beispiel durch den Befehl "ft -a" komprmiert.  
 
 ![Outlook App](../assets/images/app5.png)  
 

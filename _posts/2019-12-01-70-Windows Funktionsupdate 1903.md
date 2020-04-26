@@ -15,7 +15,7 @@ Modifiziert:	27. Juli 2019
 
 ## Überblick  
 
-Dieses Wochenende  mehrere Win10 Installationen auf die Version 1903 angehoben.  
+Dieses Wochenende  mehrere Win 10 Installationen auf die Version 1903 angehoben.  
 Neue Funktionen wie "Sandbox" sind die Highlights. Aber auch Kleinigkeiten wie Im Task-Manager festzulegen, welche Registerkarte beim Start sichtbar sein soll sind toll ("Optionen/Standardregisterkarte festlegen").  
 Das auf der Systempartition für Windows freier Speicherplatz (7% wenn nicht anders eingestellt) reserviert wird, ist sicher eine kontrovers diskutierte Funktion.
 
