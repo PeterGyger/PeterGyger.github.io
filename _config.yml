@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Peter Gyger"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Biografie"
+  bio    : "Willkommen. Ihre Frage / Angebot werde ich so schnell wie möglich beantworten"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
