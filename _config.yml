@@ -13,15 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: Peter Gyger's Blog
+email: petergyger@phontonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Hallo! Fragen Sie mich ruhig. 
   Vielleicht habe ich eine Antwort.
   
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+twitter_username: petergyger
+github_username: PeterGyger
+minimal_mistakes_skin: air
 search: true
 
 # Build settings
@@ -60,17 +60,17 @@ plugins:
 author:
   name   : "Peter Gyger"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Meine grossartige Biografie"
+  bio    : "Biografie"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://www.petergyger.net"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/petergyger"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/PeterGyger/petergyger.github.io"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
@@ -79,10 +79,10 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/petergyger"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/PeterGyger/petergyger.github.io"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
