@@ -1,6 +1,5 @@
 ---
 title: "MS DevCon und Nirsoft DevManView für die Geräteverwaltung"
-date: 2019-10-25T08:30:30-04:00
 last_modified_at: 2012-03-19T16:20:02-05:00
 categories:
   - Windows
@@ -19,7 +18,7 @@ Die Hardware-ID dient auch zum suchen von Treibern in einer Internet Suchmaschin
 
 Dir NirSoft Tool [DevManView](http://www.nirsoft.net/utils/device_manager_view.html) hat eine eigene Website und kann wie bei allen Tools des Entwicklers Nir Sofer dort downgeloaded gewerden. Die NirSoft Tools sind analog den SysInternals Tool Bais für den Windows Support / Administration. Es versteht sich von selbst, dass solche System Tools über einen Benutzer mit Administrationsrechten genutzt werden müssen.  
 
-"DevCon.exe" ist afuwändiger zu finden und installieren. Aktuell (Oktober 2019) ist der einfachste Weg folgende Schritte:  
+"DevCon.exe" ist aufwändiger zu finden und installieren. Aktuell (Oktober 2019) ist der einfachste Weg folgende Schritte:  
 1. "WDK for Windows 10" [downlaoden](https://docs.microsoft.com/de-de/windows-hardware/drivers/download-the-wdk)  
 2. WDK installieren. Die Daten werden nach "C:\Program Files\Windows Kits\10" geschrieben.
 3. Im Installationsverzeichnis hat es einUnterverzeichnis "Tools". Für die x64 Window OS (94%) ist die Datei im Verzeichnis "x64".
@@ -97,7 +96,7 @@ Das Tool erlaubt auch den Zugriff auf entferne Computer. Analog den PS Tools von
 
 ## Sicherheit
 
-Günter Born rät vom Einsatz der Nirsoft Tools ab. Das begründet er im [Artikel ](https://www.borncity.com/blog/2020/04/14/die-nirsoft-tools-und-die-dll-hijacking-schwachstellen/)  
+Günter Born rät vom Einsatz der Nirsoft Tools ab. Das begründet er im Artikel [Die Nirsoft-Tools und die DLL-Hijacking-Schwachstellen ](https://www.borncity.com/blog/2020/04/14/die-nirsoft-tools-und-die-dll-hijacking-schwachstellen/)  
 
 ## Fazit
 
