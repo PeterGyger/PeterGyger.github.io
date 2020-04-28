@@ -1,6 +1,7 @@
 ---
 title: "MS DevCon und Nirsoft DevManView für die Geräteverwaltung"
 date: 2019-10-25T08:30:30-04:00
+last_modified_at: 2012-03-19T16:20:02-05:00
 categories:
   - Windows
 tags:
@@ -94,7 +95,9 @@ Die Ausgabe erfolgt nicht auUf der CLI. D.h. es wird ein Fenster geöffnet. Alte
 
 Das Tool erlaubt auch den Zugriff auf entferne Computer. Analog den PS Tools von SysInternals.  
 
+## Sicherheit
 
+Günter Born rät vom Einsatz der Nirsoft Tools ab. Das begründet er im [Artikel ](https://www.borncity.com/blog/2020/04/14/die-nirsoft-tools-und-die-dll-hijacking-schwachstellen/)  
 
 ## Fazit
 
@@ -118,7 +121,6 @@ Alle Geräte anzeigen, welche "USB" im Namen beinhalten:
 Alle Geräte anzeigen, welche "USB" im Namen beinhalten sollen ausgeschaltet werden *(VORSICHT!!!)*  
 ``Get-PnpDevice | Where-Object { $_.FriendlyName -match 'USB' } | Disable-PnpDevice``  
 
-
 # Quellen  
 
 1. [NirSoft DevManView](http://www.nirsoft.net/utils/device_manager_view.html) 
@@ -131,7 +133,7 @@ Alle Geräte anzeigen, welche "USB" im Namen beinhalten sollen ausgeschaltet wer
 8. [INF Files](https://docs.microsoft.com/de-ch//windows-hardware/drivers/install/inf-files)
 9. [DevCon Dp_add](https://docs.microsoft.com/en-us/windows-hardware/drivers/devtest/devcon-dp-add)
 10. [Fehlercodes im Geräte-Manager in Windows](https://support.microsoft.com/de-de/help/310123/error-codes-in-device-manager-in-windows)
-11. [OT: dventures in Windows Driver Development](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2016/april/adventures-in-windows-driver-development-part-1/)  
+11. [OT: Adventures in Windows Driver Development](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2016/april/adventures-in-windows-driver-development-part-1/)  
 
 ## Meta
 
