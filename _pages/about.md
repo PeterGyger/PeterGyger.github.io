@@ -4,6 +4,7 @@ title: "About"
 ---
 
 Ein wenig Hintergrund zu der Person die hier schreibt. Mein Name ist klar und ich lebe im Kanton Zürich. Bzw. Zücher Oberland.  Mit dem Sinclair ZX 81 begann meine Faszination für Computer, Netzwerke und Technologien. Und es wird spannender und spannender...
+{: .notice}
 
 ## 80er Jahre (Mainframe)  
 
@@ -18,7 +19,7 @@ Jahr 2000 Problem: Diverse MS Office Eigenentwicklungen auf das Problem (Jahr =4
 
 ## 21. Jahrhundert  
 
-Einsätze in verschiedenen Projekten rund um Windows, Systemtechnik und MS Applikationen. 
+Freelancer. Einsätze in verschiedenen Projekten rund um Windows, Systemtechnik und MS Applikationen. 
 
 ## 2006 (WAN)
 
