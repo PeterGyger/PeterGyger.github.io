@@ -1,6 +1,6 @@
 ---
-title: "Windows Funktionsupdate 1903"
-date: 2019-07-27T15:34:30-04:00
+title: "PDF24 jetzt mit OCR Erkennung"
+date: 2019-10-09T06:34:30-04:00
 categories:
   - Windows
 tags:

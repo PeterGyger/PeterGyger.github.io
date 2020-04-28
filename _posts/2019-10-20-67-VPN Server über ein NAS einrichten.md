@@ -1,11 +1,10 @@
-# VPN Server über ein NAS einrichten
-
-## Meta
-
-Erstellt:		20. Oktober 2019  
-Modifiziert:	20. Oktober 2019
-
-## Überblick  
+---
+title: "VPN Server über ein NAS einrichten"
+date: 2019-10-20T11:34:30-04:00
+categories:
+  - Netzwerk
+tags:
+  - VPN
 
 Eine private Cloud sollte über verschlüsselte VPN Verbindung genutzt werden. Die Gründe sind Legion und im Internet en Mass zu finden.  
 Eine Möglichkeit einen VPN Server zu Hause zu installieren ist ein NAS, das ohnehin Voraussetzung für eine eigene Cloud Lösung ist. Dieser Post geht die Schritte mit einem QNAP NAS (QVPN) durch. Als VPN Client verwende ich "Open VPN".   
@@ -50,4 +49,9 @@ VPN ist dank OpenVPN ein benutzerfreundlicher Netzwerkservice. Für Zugriff auf 
 8. [Administrator.de: OpenVPN Server installieren auf pfSense Firewall, Mikrotik. DD-WRT oder GL.inet Router](https://administrator.de/wissen/openvpn-server-installieren-pfsense-firewall-dd-wrt-router-123285.html)  
 9. [YT: QNAP: Explore QVPN 2.0: An in-depth guide for VPN server and client settings](https://www.youtube.com/watch?v=ErfHkA2jYXI)
 10. [itmagazine.ch: Virtueller VPN-Router für Azure](https://www.itmagazine.ch/Artikel/70032/Virtueller_VPN-Router_fuer_Azure.html)
-11. [Überblick der Anbieter von VPN Dienstleitern](https://thatoneprivacysite.net/)
+11. [Überblick der Anbieter von VPN Dienstleitern](https://thatoneprivacysite.net/)  
+
+## Meta
+
+Erstellt:		20. Oktober 2019  
+Modifiziert:	20. Oktober 2019
