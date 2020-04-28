@@ -5,7 +5,7 @@ categories:
   - Windows
 tags:
   - Betriebssytem
-  - Updatepdate
+  - Update
 ---
 
 Dieses Wochenende  mehrere Win 10 Installationen auf die Version 1903 angehoben.  
