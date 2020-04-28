@@ -3,7 +3,9 @@ permalink: /about/
 title: "About"
 ---
 
-Ein wenig Hintergrund zu der Person die hier schreibt. Mein Name ist klar und ich lebe im Kanton Zürich. Bzw. Zücher Oberland.  Mit dem Sinclair ZX 81 begann meine Faszination für Computer, Netzwerke und Technologien. Und es wird spannender und spannender...
+Nachfolgend ein wenig Hintergrund zu der Person die hier schreibt. Ich bin im Kanton Zürich geboren und lebe im Zücher Oberland. Väterlicherseits eng mit dem Bezirk Thun im Kanton Bern verbunden.  
+
+Mit dem Sinclair ZX 81 begann meine Faszination für Computer, Netzwerke und Technologien. "Computer" fordern meinen Intellekt auf vielfältige und freundliche Art täglich heraus. Und es wird spannender und spannender...
 {: .notice}
 
 ## 80er Jahre (Mainframe)  
@@ -27,7 +29,7 @@ WAN (Modem / Telefonzentralen, Leitungswerte / etc.) Netzwerk Support für Endku
 
 ## 2019 (Auf dem Weg)
 
-Weiterbildungen und Orientierung am Markt.  
+Weiterbildungen und Orientierung am Markt. Die Zukunft ist noch nicht geschrieben...{: .notice--success} 
 
 ### Kontakt
 
