@@ -23,15 +23,15 @@ Nachfolgend als Beispiel das Szenario eines frisch installierten PC`s.
 
 Analog Bash unter Linux ist Powershell die Shell die das arbeiten mit der Kommandozeile effizient macht. Dazu muss Powershell mit Administrator Privilegien gestartet werden. Man kann Chocolatey auch über das klassische Command Line Interface - CMD.EXE - installieren.   
 
-![PSinitalisieren](../images/chocolatey/1.png)  
+![PSinitalisieren](../assets/images/57-1.png)  
 
 Danach kann die Ausführungsrichtlinie so konfiguriert werden, dass Skripte ausgeführt werden können. D.h. Option "Unrestricted" oder "Remote Signed".  
 
-![PSinitalisieren](../images/chocolatey/2.png)  
+![PSinitalisieren](../assets/images/57-2.png)  
 
 Danach über die Powershell Chocolatery installieren. Die Installation dauert ein paar Minuten. Den Befehl zur Installation findet man auf der Website von Chocolatey (im Abschnitt "Quellen" aufgelistet). Zu beachten ist, dass es dafür eine Powershell Sitzung mit erhöhten Rechten ("als Administartor ausführen") benötigt.  
 
-![Chocolatery](../images/chocolatey/3.png)  
+![Chocolatery](../assets/images/57-3.png)  
 
 ## GUI  
 
