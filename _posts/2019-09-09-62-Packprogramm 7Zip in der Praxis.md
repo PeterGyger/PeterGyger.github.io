@@ -191,7 +191,7 @@ for %a in (*.part01.rar) do 7z e *.part01.rar -ox:\kt-stat\%a
 
 ## Fazit
 
-Die Beispiele wurden während des schreibens mit 7-Zip Version 19 unter Windows 10 positiv getestet.
+Die Beispiele wurden während des schreibens mit 7-Zip Version 19 unter Windows 10 positiv getestet. 
 
 # Quellen  
 
