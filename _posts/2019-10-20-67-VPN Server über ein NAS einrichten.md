@@ -5,6 +5,7 @@ categories:
   - Netzwerk
 tags:
   - VPN
+---
 
 Eine private Cloud sollte über verschlüsselte VPN Verbindung genutzt werden. Die Gründe sind Legion und im Internet en Mass zu finden.  
 Eine Möglichkeit einen VPN Server zu Hause zu installieren ist ein NAS, das ohnehin Voraussetzung für eine eigene Cloud Lösung ist. Dieser Post geht die Schritte mit einem QNAP NAS (QVPN) durch. Als VPN Client verwende ich "Open VPN".   
