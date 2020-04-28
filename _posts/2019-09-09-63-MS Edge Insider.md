@@ -22,7 +22,7 @@ Es werden zwei Builds gefahren. Wie üblich ein Build mehr auf Stabilität und e
 
 ## Fazit
 
-
+Edge ist tot, es lebe der neue Edge Browser. Die Chrome Engine wird im Alltag einiges verbessern.
 
 # Quellen  
 

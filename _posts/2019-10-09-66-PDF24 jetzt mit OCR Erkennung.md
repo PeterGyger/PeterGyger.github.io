@@ -26,7 +26,7 @@ Die Auflösung von 300 DPI ist eher zu hoch. In den meisten Fällen (gedruckte D
 
 ## Fazit
 
-Wer eine schnelle, einfache und kostenlose Lösung sucht, um durchsuchbare PDF unter Windows zu erstellen sollte PDF24 testen.  
+Wer eine schnelle, einfache und kostenlose Lösung sucht, um durchsuchbare PDF unter Windows zu erstellen sollte PDF24 testen. Eine Alternative kenne ich nicht.  
 
 ## Meta
 
