@@ -12,7 +12,7 @@ Eine Möglichkeit einen VPN Server zu Hause zu installieren ist ein NAS, das ohn
 
 ## Einzelheiten auf dem QNAP NAS  
 
-Nach dem anmelden an dem NAS (QNAP) im Suchfeld nach "VPN" ![suchen](/assets/images/69-1.png). Danach den QVPN Service installieren ("App Center"). Im Fenster "QVPN Service", links im vertikalen Menu auf "OpenVPN" klicken. Die ![Einstellungen](/assets/images/69-2.png) können übernommen werden. Einzig die Verschlüsselung ändere ich auf "AES 256-bit" das inzwischen so gut wie alle VPN Clients unterstützen. Die Einstellungen speichern über den Button "Übernehmen" am unteren Rand. Jetzt den Button "Konfigurationsdatei herunterladen" anklicken.  
+Nach dem anmelden an dem NAS (QNAP) im Suchfeld nach "VPN" ![suchen](/assets/images/67-1.png). Danach den QVPN Service installieren ("App Center"). Im Fenster "QVPN Service", links im vertikalen Menu auf "OpenVPN" klicken. Die ![Einstellungen](/assets/images/67-2.png) können übernommen werden. Einzig die Verschlüsselung ändere ich auf "AES 256-bit" das inzwischen so gut wie alle VPN Clients unterstützen. Die Einstellungen speichern über den Button "Übernehmen" am unteren Rand. Jetzt den Button "Konfigurationsdatei herunterladen" anklicken.  
 
 Die Konfigurationsdatei "QNAPTS212.ovpn" wird nachher mit dem OpenVPN Client verwendet. Die externe IP Adresse (WAN-IP) des Routers hinter dem das NAS steht, ist in dieser Datei in der Zeile "Remote=" zu finden. D.h. wenn man von seinem Internet Service Provider eine neue IP erhält, muss diese dort eingetragen werden. Swisscom Privat Kunden haben diese Arbeit nicht. I.d.R. bleibt dort die IP über Jahre die gleiche.  
 
@@ -23,15 +23,15 @@ Letzter Hinweis: Auf Grund der IPv4 Adressknappheit erhalten viele Kunden von Ih
 ## Internet-Router Weiterleitung einrichten  
 
 Da die Standardeinstellung für Protokoll ("UDP") und Port ("1194") belassen wurden, wird die Weiterleitung dafür konfiguriert. Natürlich sollten Geräte im LAN die als Server (NAS / Printer / etc.) genutzt werden eine feste interne IP haben. Nachfolgend ein Bild wie die Einstellungen des Routers "Internet Box" der Firma Swisscom aussieht. Das NAS wird im Feld "Gerät" ausgewählt.  
-![Bild](/assets/images/69-3.png)  
+![Bild](/assets/images/67-3.png)  
 
 ## Windows 10: OpenVPN Client einrichten  
 
-Auf der ![Website](/assets/images/69-4.png) der OpenVPN Community rechts den Button auf der Linie "Windows 10 installer (NSIS)" anklicken. Die Datei kann unter 32 Bit und 64 Bit Windows installiert werden. Windows verlangt für die Installation einen Benutzer mit Administrator Rechten.  
+Auf der ![Website](/assets/images/67-4.png) der OpenVPN Community rechts den Button auf der Linie "Windows 10 installer (NSIS)" anklicken. Die Datei kann unter 32 Bit und 64 Bit Windows installiert werden. Windows verlangt für die Installation einen Benutzer mit Administrator Rechten.  
 
-Im Downloadverzeichnis liegt nun die Installationsdatei [openvpn-install-2.4.7-I607-Win10!](/assets/images/69-5.png)  
+Im Downloadverzeichnis liegt nun die Installationsdatei [openvpn-install-2.4.7-I607-Win10!](/assets/images/67-5.png)  
 
-Die Installation kann durchgeklickt werden. Die Readme.txt sollte man lesen, technische Englisch vorausgesetzt. Danach über das Windows Menu "OpenVPN" starten. Da noch keine Konfiguration erstellt wurde, erhält man diesen [Hinweis](/assets/images/69-6.png).  Im SysTray wird nun das Icon (Monitor mit Schloss) angezeigt. Mit einem [Rechtsklick](/assets/images/69-7.png) kann nun die Konfigurationsdatei ("QNAPTS212.ovpn") geladen werden. Nach dem wegklicken der Bestätigung, kann man über einen weiteren Rechtsklick "verbinden" bzw. "trennen" anklicken, um die verschlüsselte VPN Verbindung zum NAS herzustellen.  
+Die Installation kann durchgeklickt werden. Die Readme.txt sollte man lesen, technische Englisch vorausgesetzt. Danach über das Windows Menu "OpenVPN" starten. Da noch keine Konfiguration erstellt wurde, erhält man diesen [Hinweis](/assets/images/67-6.png).  Im SysTray wird nun das Icon (Monitor mit Schloss) angezeigt. Mit einem [Rechtsklick](/assets/images/67-7.png) kann nun die Konfigurationsdatei ("QNAPTS212.ovpn") geladen werden. Nach dem wegklicken der Bestätigung, kann man über einen weiteren Rechtsklick "verbinden" bzw. "trennen" anklicken, um die verschlüsselte VPN Verbindung zum NAS herzustellen.  
 
 
 ## Fazit  
