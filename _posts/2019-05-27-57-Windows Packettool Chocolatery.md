@@ -27,11 +27,11 @@ Analog Bash unter Linux ist Powershell die Shell die das arbeiten mit der Komman
 
 Danach kann die Ausführungsrichtlinie so konfiguriert werden, dass Skripte ausgeführt werden können. D.h. Option "Unrestricted" oder "Remote Signed".  
 
-![PSinitalisieren](assets/images/57-2.png)  
+![PSinitalisieren](/assets/images/57-2.png)  
 
 Danach über die Powershell Chocolatery installieren. Die Installation dauert ein paar Minuten. Den Befehl zur Installation findet man auf der Website von Chocolatey (im Abschnitt "Quellen" aufgelistet). Zu beachten ist, dass es dafür eine Powershell Sitzung mit erhöhten Rechten ("als Administartor ausführen") benötigt.  
 
-![Chocolatery](../assets/images/57-3.png)  
+![Chocolatery](/assets/images/57-3.png)  
 
 ## GUI  
 

@@ -31,7 +31,7 @@ Auf der ![Website](../assets/images/69-4.png) der OpenVPN Community rechts den B
 
 Im Downloadverzeichnis liegt nun die Installationsdatei [openvpn-install-2.4.7-I607-Win10!](../assets/images/69-5.png)  
 
-Die Installation kann durchgeklickt werden. Die Readme.txt sollte man lesen, technische Englisch vorausgesetzt. Danach über das Windows Menu "OpenVPN" starten. Da noch keine Konfiguration erstellt wurde, erhält man diesen [Hinweis](../assets/images/69-6.png).  Im SysTray wird nun das Icon (Monitor mit Schloss) angezeigt. Mit einem [Rechtsklick](../assets/images/69-7.png) kann nun die Konfigurationsdatei ("QNAPTS212.ovpn") geladen werden. Nach dem wegklicken der Bestätigung, kann man über einen weiteren Rechtsklick "verbinden" bzw. "trennen" anklicken, um die verschlüsselte VPN Verbindung zum NAS herzustellen.  
+Die Installation kann durchgeklickt werden. Die Readme.txt sollte man lesen, technische Englisch vorausgesetzt. Danach über das Windows Menu "OpenVPN" starten. Da noch keine Konfiguration erstellt wurde, erhält man diesen [Hinweis](/assets/images/69-6.png).  Im SysTray wird nun das Icon (Monitor mit Schloss) angezeigt. Mit einem [Rechtsklick](/assets/images/69-7.png) kann nun die Konfigurationsdatei ("QNAPTS212.ovpn") geladen werden. Nach dem wegklicken der Bestätigung, kann man über einen weiteren Rechtsklick "verbinden" bzw. "trennen" anklicken, um die verschlüsselte VPN Verbindung zum NAS herzustellen.  
 
 
 ## Fazit  

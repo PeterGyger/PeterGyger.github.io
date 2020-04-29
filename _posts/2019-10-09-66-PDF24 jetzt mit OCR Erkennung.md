@@ -18,11 +18,11 @@ Windows 10 hat nebst seinem XPS Druckertreiber, seit längerem ein PDF Druckertr
 
 Die Auflösung von 300 DPI ist eher zu hoch. In den meisten Fällen (gedruckte Dokumente) reichen 150 DPI aus. Es wirkt sich natürlich auf die Grösse des Dokumentes aus.  
 
-1. ![Skript öffnen](../assets/images/66-step1.png)  
-2. ![Skript öffnen](../assets/images/66-step2.png)  
-3. ![Skript öffnen](../assets/images/66-step3.png)  
-4. ![Skript öffnen](../assets/images/66-step4.png)  
-5. ![Skript öffnen](../assets/images/66-step5.png)  
+1. ![Skript öffnen](/assets/images/66-step1.png)  
+2. ![Skript öffnen](/assets/images/66-step2.png)  
+3. ![Skript öffnen](/assets/images/66-step3.png)  
+4. ![Skript öffnen](/assets/images/66-step4.png)  
+5. ![Skript öffnen](/assets/images/66-step5.png)  
 
 ## Fazit
 

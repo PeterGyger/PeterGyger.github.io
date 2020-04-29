@@ -16,7 +16,7 @@ Die Funktion ist unter GNU LGPL von Igor Pavlov freigegeben und kann als Modul i
 - 7za.exe (a = alone)  
 
 Die Version 7za fand ich auf der ["Source Forge"](https://www.7-zip.org/a/7za920.zip) Site, wo er mit seinem Projekt gestartet ist. Die heisst "7z1900-extra.7z". Der Autor hat auch eine weitere CLI Version ["7zr"](https://www.7-zip.org/a/7zr.exe) veröffentlicht. Diese unterstützt nur das 7-Zip Format ohne Passwortschutz. Im SDK (lzma) hat es eine 42 KByte grosse Datei, welche nur auspacken kann: "7zDec". Quasi das Pendant zu der "Unrar.exe" von Winrar.  
-![CLI Hilfe Anzeige](../images/7zip/7zdec.png)   
+![CLI Hilfe Anzeige](assets/images/62-7zdec.png)   
 
 7za.exe unterstützt nur die Formate 7z, lzma, cab, zip, gzip, bzip2, Z and tar. Externe module werden nicht unterstützt. Wie üblich stehen die Details in der Datei "Readme.txt" des ausgepackten Verzeichnisses.  
 
