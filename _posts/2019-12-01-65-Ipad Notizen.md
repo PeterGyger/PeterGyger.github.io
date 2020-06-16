@@ -8,7 +8,14 @@ tags:
   - Hardware
 ---
 
-Was findet man für Informationen zum Ipad im Internet? Das Ipad ist eines der typischen Anwendergeräte. Daher natürlich das Pflichtprogramm für einen Supporter
+# Überblick  
+
+Was findet man für Informationen zum Ipad im Internet? Das Ipad ist eines der typischen Anwendergeräte. Daher natürlich das Pflichtprogramm für einen Supporter.  
+
+# Multimedia  
+
+
+
 
 
 
