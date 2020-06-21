@@ -24,7 +24,7 @@ Einstellungen ("Zahnrad") - "Anwendungen" - "Outlook":
 Kontakte aktivieren  
 
 Outlook.com App öffnen. Links oben auf das Bild ("Konto") tippen / klicken. Es öffnet sich von links ein Panel. Links unten auf das Zahnrad ("Einstellungen") tippen. Im Abschnitt "Konten" auf das Konto klicken, dessen Kontakte nicht synchronisiert werden.  
-![Kontoinformationen](_image/21-1.png)  
+![Kontoinformationen](_image/13-1.png)  
 
 Dort muss die Option "Kontakte synchronisieren" aktiv sein. Danach war das Problem gelöst. In den Einstellungen der Kontakt App, wurde das outlook.com Konto wieder angezeigt. Nebst den Klassikern App deinstallieren (Neustart) installieren und Handyreset ("Mit Kanonen auf Spatzen...") hat das Microsoft Dokument unter "Quellen" weitere Tipps bereit.  
 
