@@ -1,12 +1,12 @@
----
+---  
 title: "Markdown und Tabelle  "
-date: 
-categories:
-  - W3C
-tags:
-  - Markdown
-  - Git
----
+date:  21. Juni 2020  
+categories:  
+  - W3C  
+tags:  
+  - Markdown  
+  - Git  
+---  
 
 ## Um was geht es?
 

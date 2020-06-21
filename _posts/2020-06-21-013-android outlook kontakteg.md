@@ -10,7 +10,7 @@ tags:
 
 ## Um was geht es?  
 
-In der Kontakt App von Android werden die Kontakte nicht mehr angezeigt. Das sieht man auch in den Messengern, wo statt der Name die Telefonnummer zu sehen ist.  
+In der Kontakt App von Android werden die Kontakte aus Outlook.com nicht mehr angezeigt. Das sieht man auch in den Messengern, wo statt der Name die Telefonnummer zu sehen ist.  
 
 ## Eingrenzen  
 
