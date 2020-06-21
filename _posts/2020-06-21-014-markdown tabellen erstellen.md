@@ -1,6 +1,6 @@
 ---  
 title: "Markdown und Tabelle  "
-date:  21. Juni 2020  
+date:  2020-06-21T5:34:30-04:00
 categories:  
   - W3C  
 tags:  
@@ -9,6 +9,8 @@ tags:
 ---  
 
 ## Um was geht es?
+
+Mit der Auszeichnungssrpache Markdown (GitHub) habe ich verschiedene Möglichkeiten Tabellen darzustellen. Optisch bietet Markdown wenig Möglichkeiten. Aber mit den W3C Sprachen (HTML / CSS) erreiche ich sehr viel mehr. Etwas Webdesign für Markdown.  
 
 ## 1. Markdown pur
 
