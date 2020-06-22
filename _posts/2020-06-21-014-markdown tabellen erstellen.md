@@ -20,7 +20,7 @@ Beispiel 1
 
 #### Code  
 
-```| First Header  | Second Header | Third Header  | Fourth Header |  
+``` | First Header  | Second Header | Third Header  | Fourth Header |  
 | ------------- | ------------- | ------------- | ------------- |  
 | Content Cell  | Content Cell  | Content Cell  | Content Cell  |  
 | Content Cell  | Content Cell  | Content Cell  | Content Cell  |  
