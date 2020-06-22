@@ -16,16 +16,16 @@ Mit der Auszeichnungssrpache Markdown (GitHub) habe ich verschiedene Möglichkei
 
 Die Code Beispiele sind aus der GitHub Markdown Hilfe  
 
-Beispiel 1  
+Beispiel 1   
 
 #### Code  
 
-``` | First Header  | Second Header | Third Header  | Fourth Header |  
-| ------------- | ------------- | ------------- | ------------- |  
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  |  
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  |  
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  |  
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  |  ```
+``` | First Header  | Second Header | Third Header  | Fourth Header | ``` 
+``` | ------------- | ------------- | ------------- | ------------- | ```
+``` | Content Cell  | Content Cell  | Content Cell  | Content Cell  | ```
+``` | Content Cell  | Content Cell  | Content Cell  | Content Cell  | ```
+``` | Content Cell  | Content Cell  | Content Cell  | Content Cell  | ```
+``` | Content Cell  | Content Cell  | Content Cell  | Content Cell  | ```
 
 #### Ausgabe  
 
