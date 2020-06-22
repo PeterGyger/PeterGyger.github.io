@@ -20,12 +20,14 @@ Beispiel 1
 
 #### Code  
 
-``` | First Header  | Second Header | Third Header  | Fourth Header | ``` 
-``` | ------------- | ------------- | ------------- | ------------- | ```
-``` | Content Cell  | Content Cell  | Content Cell  | Content Cell  | ```
-``` | Content Cell  | Content Cell  | Content Cell  | Content Cell  | ```
-``` | Content Cell  | Content Cell  | Content Cell  | Content Cell  | ```
-``` | Content Cell  | Content Cell  | Content Cell  | Content Cell  | ```
+```
+| First Header  | Second Header | Third Header  | Fourth Header |
+| ------------- | ------------- | ------------- | ------------- |
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+```
 
 #### Ausgabe  
 
@@ -42,9 +44,11 @@ Beispiel 2
 
 #### Code  
 
+ ```
 \| First Header  | Second Header | Third Header  | Fourth Header |  
 \| --- | --- | --- | --- |  
 \| Content Cell  | Content Cell  | Content Cell  | Content Cell  |  
+ ```
 
 #### Ausgabe  
 
@@ -77,6 +81,7 @@ Beispiel 1: *Eine einfache HTML Tabelle*
 
 #### Code 
 
+ ```
 \<table>  
   \<tr>  
     \<th>First</th>  
@@ -109,6 +114,7 @@ Beispiel 1: *Eine einfache HTML Tabelle*
     \<td>  Content Cell</td>  
   \</tr>  
 \</table>  
+ ```
 
 #### Ausgabe  
 
@@ -150,6 +156,7 @@ Beispiel 2: *Eine HTML Tabelle zusätzlich mit den Elementen "Kopf", "Inhalt" un
 
 #### Code 
 
+ ```
 \<table>  
     \<thead>  
         \<tr>  
@@ -170,6 +177,7 @@ Beispiel 2: *Eine HTML Tabelle zusätzlich mit den Elementen "Kopf", "Inhalt" un
         \</tr>  
     \</tfoot>  
 \</table>  
+ ```
 
 #### Ausgabe  
 
@@ -198,7 +206,8 @@ Beispiel 2: *Eine HTML Tabelle zusätzlich mit den Elementen "Kopf", "Inhalt" un
 Beispiel 3:  *Mit dem Element "colspan" können Zellen zu einer zusammengefasst werden*  
 
 #### Code  
-
+ 
+ ```
 \<table>  
     \<thead>  
         \<tr>  
@@ -217,6 +226,7 @@ Beispiel 3:  *Mit dem Element "colspan" können Zellen zu einer zusammengefasst 
         \</tr>  
     \</tfoot>  
 \</table>  
+ ```
 
 #### Ausgabe  
 
@@ -249,6 +259,7 @@ Beispiel 4: Mit dem Element "rowspan" können Spalten zusammengefasst werden.
 
 #### Code 
 
+ ```
 \<table>  
     \<thead>  
         \<tr>  
@@ -275,6 +286,7 @@ Beispiel 4: Mit dem Element "rowspan" können Spalten zusammengefasst werden.
         \</tr>  
     \</tfoot>  
 \</table>  
+ ```
 
 #### Ausgabe
 
@@ -322,11 +334,11 @@ Die einzelnen Tags können aber auch direkt formatiert werden. In dem Beispiel 1
 
 Dieses CSS Verfahren wird [Pseudoklasse](https://wiki.selfhtml.org/wiki/CSS/Selektoren/Pseudoklasse) genannt. Das hier verwendete Element "nth-child" mit dem Wert "odd" kann man z.B. auf der [Mozilla Website](https://developer.mozilla.org/de/docs/Web/CSS/:nth-child) nachlesen. Im Beispeil unten hat es im CSS Abschnitt \<style type="text/css"> eine CSS Klasse namens ".zahl". Damit kann eine HTML Aufzählung (Tag OL / UL) über den Befehl \list-style anders formatiert werden. Dieser CSS [Artikel](https://css-tricks.com/almanac/properties/l/list-style/) listet die verschiedenen Möglichkeiten auf, wie Listen anders dargestellt werden können. Um eine Liste absteigend zu nummerieren und die Ziffern mit einer führenden Null (01 / 02 / etc.) mit der oben definierten CSS Klasse "zahl" darzustellen, muss das ol tag so aussehen:  
 
-\<ol reversed="reversed" class="zahl" >
+ ```\<ol reversed="reversed" class="zahl" > ```
 
 Wenn der Google Font ["Space Mono"](https://google-webfonts-helper.herokuapp.com/fonts/space-mono?subsets=latin) initialisiert wurde, kann ich für die Aufzählung auch diese Schrift definieren:  
 
-\style="font-family: 'Space Mono';"
+ ```\style="font-family: 'Space Mono';" ```
 
 Die CSS Angaben sind hierarchisch organisiert. Grundlegende Angaben die für das ganze Repository ("Jeckyl Now" Build) gelten, stehen in der Datei "style.css". Diese werden ggf. überschrieben, wenn ich in einer MD Datei (Blogpost) zum gleichen HTML Tag Angaben mache. Kug (Kurz und gut): Wenn in der Datei "style.css" steht, dass der Tag H1 (Titel) grün sein soll, jedoch in einer MD Datei H1 ist rot definiert ist, dann wird in dieser Datei der Titel in rot angezeigt.  
 
@@ -339,6 +351,7 @@ Beispiel 1
 
 #### Code
 
+ ```
 \<style type="text/css">  
       th {
         background-color: #666; 
@@ -387,6 +400,7 @@ Beispiel 1
     \<td></td>  
   \</tr>  
 \</table>  
+ ```
 
 #### Ausgabe
 
@@ -476,6 +490,7 @@ Beispiel 3: Tabellenzellen direkt formatiert
 
 #### Code  
 
+ ```
 \<table>  
 \<tbody valign="top">  
     \<tr style="height: 21px;">  
@@ -496,7 +511,8 @@ Beispiel 3: Tabellenzellen direkt formatiert
     \</tr>  
 \</tbody>  
 \</table>  
-
+ ```
+ 
 #### Ausgabe   
 
 <table>
