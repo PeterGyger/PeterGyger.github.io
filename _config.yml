@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Willkommen! Private Entwürfe zu IT Themen
+title: Willkommen! (ง ͡ʘ ͜ʖ ͡ʘ)ง Private Entwürfe zu IT Themen ༼ つ ◕_◕ ༽つ
 email: petergyger@phontonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Hallo! Fragen Sie - vielleicht habe ich eine Antwort 
@@ -56,7 +56,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "(ง ͡ʘ ͜ʖ ͡ʘ)ง Peter༼ つ ◕_◕ ༽つ"
+  name   : "Peter Gyger"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Jeden Sonntag wird ein (oder mehrere) Artikel erstellt. D.h. am 27. Juli wird ein neuer Beitrag veröffentlicht"
 
