@@ -54,7 +54,7 @@ Die Microsoft-Implementierung eines NetBIOS Name Servers
 
 Die "Peer to Peer" Funktion setzte ursprünglich das Protokoll SMB sowie den daraus aufbauenden Dienst "Computer Browser". Nachdem SMB Version 1 als veraltet und unsicher eingestuft wurde, stellte man auf "Function Discovery Provider Host" (Deutsch: Funktionssuchanbieter-Host) um. D.h. dieser Dienst muss gestartet sein. Die zweite Voraussetzung ist die aktivierte ["Netzwerkerkennung"  ](https://thomasknoefel.de/konfigurieren-der-netzwerkerkennung-in-windows-10/). Dieses nutzt das Protokoll "WS-DISCOVERY".  
 
-** SMB Version 1 sollte unbedingt ausgeschaltet bleiben. Das Sicherheitsrisiko ist sehr hoch **  
+**SMB Version 1 sollte unbedingt ausgeschaltet bleiben. Das Sicherheitsrisiko ist sehr hoch**  
 
 ## Arbeitsgruppe / Heimnetzgruppe  
 
@@ -73,9 +73,9 @@ Wenn man im lokalen Netzwerk noch Windows Versionen vor 10 (8.1 / 8 / 7) im Eins
 
 Diese Funktionen setzen i.d.R. eine Shell mit Administrator Berechtigungen voraus.  
 
-![net files][/_image/17-2.png]  
-
 net file - Zeigt die Dateien auf dem eigenen Computer an, auf die von anderen zugegriffen wird  
+
+![net files](/_image/17-2.png)  
 
 net share - [Zeigt die Shares (freigegebene Ordner) an](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh750728(v=ws.11)).  
 
@@ -85,7 +85,7 @@ net use x: \\computername\freigabenname - Laufwerk X: für das Verzeichnis \\com
 
 fsmgt.msc - Freigaben anzeigen / verwalten  
 
-compmgmt.msc - ![Computermanagement Konsole][/_image/17-1.png]  
+compmgmt.msc - ![Computermanagement Konsole](/_image/17-1.png)  
 
 ## Shell: Powershell  
 
