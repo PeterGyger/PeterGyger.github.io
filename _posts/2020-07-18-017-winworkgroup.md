@@ -25,7 +25,7 @@ Das Windows P2P besteht aus drei Elementen:
 - Benutzern  
 - Berechtigungen  
 
-
+Ob die Geräte über WLAN oder Lan (Ethernet) mit dem Router verbunden sind, spielt keine Rolle. In Windows 10 kann man seit längerem auch [Software Updates "Peer to Peer"](https://www.windowspro.de/wolfgang-sommergut/windows-10-update-delivery-optimization-gpos-konfigurieren) verteilen.
 
 ### NetBIOS
 
@@ -71,7 +71,21 @@ Wenn man im lokalen Netzwerk noch Windows Versionen vor 10 (8.1 / 8 / 7) im Eins
 
 ## Shell: CMD  
 
-nbstat  
+Diese Funktionen setzen i.d.R. eine Shell mit Administrator Berechtigungen voraus.  
+
+![net files][/_image/17-2.png]  
+
+net file - Zeigt die Dateien auf dem eigenen Computer an, auf die von anderen zugegriffen wird  
+
+net share - [Zeigt die Shares (freigegebene Ordner) an](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh750728(v=ws.11)).  
+
+net share namederneuenfreigabe=C:\Users\bofh\Prj_Baerengraben - Verzeichnis "Prj_Baerengraben" unter dem Namen namederneuenfreigabe erstellt  
+
+net use x: \\computername\freigabenname - Laufwerk X: für das Verzeichnis \\computername\freigabenname mounten  
+
+fsmgt.msc - Freigaben anzeigen / verwalten  
+
+compmgmt.msc - ![Computermanagement Konsole][/_image/17-1.png]  
 
 ## Shell: Powershell  
 
@@ -79,23 +93,32 @@ Computer zu einer Workgroup [hinzufügen](https://docs.microsoft.com/en-us/power
 
 Computer aus einer Workgroup [entfernen](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/remove-computer?view=powershell-5.1)  
 
+## Troubleshooting  
+
+1. Netzwerkverbindung 
+
+## Abschliessend
+
+Seit "Windows as a Service" muss man auf Überraschungen / Änderungen gefasst sein. Wolfgang Sommergut beschreibt in diesem [Artikel](https://www.windowspro.de/wolfgang-sommergut/gpos-fuer-windows-10-1607-excel-tabelle-einstellungen-fuer-enterprise-wufb) einen Sachverhalt mit GPO und Softwareverteilung (P2P).  
 
 ## Quellen  
 
 1. [JOCHEN DINGER: Das Potential von Peer-to-Peer-Netzen und -Systemen : Architekturen, Robustheit und rechtliche Verortung](https://www.ksp.kit.edu/9783866443273)
 
-2. [MS Docs: NetBIOS-Based Transports](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-cifs/1430ebe9-2ad0-4763-b14f-c720338e0482)  
+2. [MS Docs: Peer-to-Peer-Netzwerkszenarien](https://docs.microsoft.com/de-de/dotnet/framework/network-programming/peer-to-peer-networking-scenarios)
 
-3. [support.microsoft.com: Vergleich von Windows NT-Netzwerkprotokolle](https://support.microsoft.com/de-ch/help/128233/comparison-of-windows-nt-network-protocols)  
+3. [MS Docs: NetBIOS-Based Transports](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-cifs/1430ebe9-2ad0-4763-b14f-c720338e0482)  
 
-4. [MS Docs: SMBv1 is not installed by default in Windows 10 version 1709, Windows Server version 1709 and later versions](https://docs.microsoft.com/en-nz/windows-server/storage/file-server/troubleshoot/smbv1-not-installed-by-default-in-windows)  
+4. [support.microsoft.com: Vergleich von Windows NT-Netzwerkprotokolle](https://support.microsoft.com/de-ch/help/128233/comparison-of-windows-nt-network-protocols)  
 
-5. [Linux:ZUGRIFF AUF NETZWERKVERZEICHNISSE MIT NAUTILUS](https://kofler.info/zugriff-auf-netzwerkverzeichnisse-mit-nautilus/)  
+5. [MS Docs: SMBv1 is not installed by default in Windows 10 version 1709, Windows Server version 1709 and later versions](https://docs.microsoft.com/en-nz/windows-server/storage/file-server/troubleshoot/smbv1-not-installed-by-default-in-windows)  
 
-6. [MS Docs: Net services commands](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-xp/bb490949(v=technet.10))
+6. [Linux:ZUGRIFF AUF NETZWERKVERZEICHNISSE MIT NAUTILUS](https://kofler.info/zugriff-auf-netzwerkverzeichnisse-mit-nautilus/)  
+
+7. [MS Docs: Net services commands](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-xp/bb490949(v=technet.10))
 
 
 ## Meta
 
-Erstellt:		18. Juli 2020  
-Modifiziert:	18. Juli 2020
+Erstellt:	18. Juli 2020  
+Modifiziert:	21. Juli 2020
