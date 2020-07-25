@@ -151,6 +151,53 @@ Beispiel 1: *Eine einfache HTML Tabelle*
   </tr>
 </table>
 
+Variationen mit CSS  
+
+
+<table>
+  <tr class="parent blue">
+    <th>First </th>
+    <th>Second</th>
+    <th>Third</th>
+    <th>Fourth</th>
+  </tr>
+  </table>
+
+  <table>
+  <tr class="box coral" contenteditable>
+    <td>Content Cell</td>
+    <td>Content Cell</td>
+    <td>Content Cell</td>
+    <td>Content Cell</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>Content Cell</td>
+    <td>Content Cell</td>
+    <td>Content Cell</td>
+    <td>Content Cell</td>
+  </tr>
+  </table>
+
+<table>
+  <tr>
+    <td>Content Cell</td>
+    <td>Content Cell</td>
+    <td>Content Cell</td>
+    <td>Content Cell</td>
+  </tr>
+  </table>
+
+<table>
+  <tr>
+    <td>Content Cell</td>
+    <td>Content Cell</td>
+    <td>Content Cell</td>
+    <td>Content Cell</td>
+  </tr>
+</table>
 
 Beispiel 2: *Eine HTML Tabelle zusätzlich mit den Elementen "Kopf", "Inhalt" und "Fuss"*  
 
@@ -446,6 +493,7 @@ Beispiel 2 Colspan mit individueller Breite der Spalten
 
 #### Code  
 
+ ```
 \<table style="border-collapse: collapse;" border="0"><colgroup><col style="width: 42px;" /><col style="width: 561px;" /><col style="width: 111px;" /><col style="width: 75px;" /><col style="width: 75px;" /><col style="width: 75px;" /></colgroup>  
     \<tr style="height: 21px;">  
         \<td>1</td>  
@@ -464,6 +512,7 @@ Beispiel 2 Colspan mit individueller Breite der Spalten
         \<td>Thinkpad</td>  
     \</tr>  
 \</table>  
+ ```
 
 #### Ausgabe   
 
@@ -540,16 +589,19 @@ Mit dem ["HTML Table Style Generator"](http://tablestyler.com) von Eli Geske kö
 
 Mit der Auszeichnungssrpache Markdown (GitHub) habe ich verschiedene Möglichkeiten Tabellen darzustellen. Optisch bietet Markdown wenig Möglichkeiten. Aber mit den W3C Sprachen (HTML / CSS) erreiche ich sehr viel mehr. Etwas Webdesign für Markdown.  
 
-
-
 # Quellen  
 
 1. [GitHub Help:  Organizing information with tables](https://help.github.com/en/articles/organizing-information-with-tables)  
+
 2. [GitHub Help:  Organizing information with tables](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)  
+
 3. [Daringfireball.net:HTML](https://daringfireball.net/projects/markdown/syntax#html)  
-3. [Tables Online Generator](https://www.tablesgenerator.com/html_tables)  
-4. [SelfHTML Aufbau einer Tabelle](https://wiki.selfhtml.org/wiki/HTML/Tabellen/Aufbau_einer_Tabelle)  
-5. [css-tricks.com: A Complete Guide to the Table Element](https://css-tricks.com/complete-guide-table-element/)  
+
+4. [Tables Online Generator](https://www.tablesgenerator.com/html_tables)  
+
+5. [SelfHTML Aufbau einer Tabelle](https://wiki.selfhtml.org/wiki/HTML/Tabellen/Aufbau_einer_Tabelle)  
+
+6. [css-tricks.com: A Complete Guide to the Table Element](https://css-tricks.com/complete-guide-table-element/)  
 
 ## Meta
 

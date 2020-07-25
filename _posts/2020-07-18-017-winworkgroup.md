@@ -20,26 +20,10 @@ Die Arbeitsgruppe alias Workgroup alias Heimnetzgruppe (ab Windows 7) spielt(e) 
 
 ## Basiswissen
 
-<div class="parent">
-    <div class="section yellow" contenteditable>
-    Min: 150px / Max: 25%
-    </div>
-    <div class="section purple" contenteditable>
-      This element takes the second grid position (1fr), meaning
-      it takes up the rest of the remaining space.
-    </div>
-  </div>
-
 Das Windows P2P besteht aus drei Elementen:  
 - Freigaben (Verzeichnisse, Drucker, Netzwerkresoucen)  
 - Benutzern  
 - Berechtigungennn  
-
-  <div class="parent white">
-    <div class="box green">1</div>
-    <div class="box green">2</div>
-    <div class="box green">3</div>
-  </div>
 
 Die "Berechtigungen" finden auf zwei unabhängigen Technologien statt:  
 * SMB (Netzwerk) die Freigabe Berechtigung  
