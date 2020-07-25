@@ -25,6 +25,20 @@ Das Windows P2P besteht aus drei Elementen:
 - Benutzern  
 - Berechtigungen  
 
+Die "Berechtigungen" finden auf zwei unabhängigen Technologien statt:  
+* SMB (Netzwerk) die Freigabe Berechtigung  
+* NTFS (Dateiebene: Ein Verzeichnis ist auch eine Datei) - Lese / Schreibrechte  
+
+Die Komplexität ist die Mutter der Fehler. Daher sollten Freigaben auf der Dateiebene nur für Verzeichnisse gemacht werden. Nicht für einzelne Dateien.  
+
+Jede Freigabe muss beide Ebenen berücksichtigen. Ein universelles Prinzip in der IT besagt, dass wenn sich die Konfiguration dieser zwei Ebenen widerspricht, wird die stärkere Einschränkung wirksam werden. Ein anderes Prinzip im Zusammenhang mit Gruppen und Berechtigungen heisst "AGDLP" bzw. seit ein paar Jahren IGDLA  
+
+AGDLP: Account => Global Group => Domain Local Group => Permission  
+"Neu:"  
+IGDLA: Identity => Global Group => Domain Local Group => Access  
+
+Das grundlegende Benutzer / Berechtigungssystem von [Linux](https://de.wikibooks.org/wiki/Linux-Praxisbuch/_Benutzer-_und_Berechtigungskonzepte) und Windows ist ähnlich aufgebaut. Kennt man eines, versteht man das andere schnell.
+
 Ob die Geräte über WLAN oder Lan (Ethernet) mit dem Router verbunden sind, spielt keine Rolle. In Windows 10 kann man seit längerem auch [Software Updates "Peer to Peer"](https://www.windowspro.de/wolfgang-sommergut/windows-10-update-delivery-optimization-gpos-konfigurieren) verteilen.
 
 ### NetBIOS
@@ -58,7 +72,11 @@ Die "Peer to Peer" Funktion setzte ursprünglich das Protokoll SMB sowie den dar
 
 ## Arbeitsgruppe / Heimnetzgruppe  
 
+Diese Arbeitsgruppen existieren nur auf dem lokalen Computer. Genauer in der Security Accounts Manager (SAM) Datenbank.  
+
 Mit der Windows 10 Version 1803 wurden die Heimnetzgruppen aus Windows [entfernt](https://support.microsoft.com/de-de/help/4091368/windows-10-homegroup-removed). Dennoch können [Drucker](https://support.microsoft.com/de-de/help/4089224/windows-10-share-network-printer) und [Dateien](https://support.microsoft.com/de-de/help/4027674/windows-10-share-files-in-file-explorer) trotzdem freigebben werden.  
+
+[Dieses](https://www.youtube.com/watch?v=uNeo7O6ImAo) Video (HOW TO HOMEGROUP WITHOUT HOMEGROUP in Windows 10) des YouTube Kanals "Alternative Tech Reports" zeigt Schritt für Schritt wie man mehrere lokale Windows 10 Computer mit Freigaben vernetzt.  
 
 Wenn man im lokalen Netzwerk noch Windows Versionen vor 10 (8.1 / 8 / 7) im Einsatz hat müssen dort die Arbeitsgruppen gelöscht werden. Folgende Dienste sollten in den alten Windows Versionen auf verzögerter Start gestellt sein:
 * Funktion Anbieter Host
@@ -83,11 +101,20 @@ net share namederneuenfreigabe=C:\Users\bofh\Prj_Baerengraben - Verzeichnis "Prj
 
 net use x: \\computername\freigabenname - Laufwerk X: für das Verzeichnis \\computername\freigabenname mounten  
 
+[net localgroup](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc725622(v=ws.11)) zeigt die lokalen Arbeitsgruppen an. Diese [Website](https://www.colorconsole.de/console/de/112.htm) erklärt das in deutscher Sprache.  
+
+[whoami /groups](https://www.der-windows-papst.de/wp-content/uploads/2014/09/Windows-7-Whoami.pdf) zeigt den angemeldeten Benutzer (Token) und seine Gruppen an. Die verlinkte Websites geht tiefer in den mächtigen Befehl "whoami" ein.  
+
 fsmgt.msc - Freigaben anzeigen / verwalten  
 
 compmgmt.msc - ![Computermanagement Konsole](/_image/17-1.png)  
 
 ## Shell: Powershell  
+
+Laufwerk (NTFS) Berechtigungen [anzeigen](https://www.colorconsole.de/PS_Windows/de/Get-Acl.htm)  
+[Praxistipp:](https://www.windowspro.de/tipp/dateirechte-anzeigen-auf-kommandozeile-powershell) Ausgabe der ACL des aktuellen Ordners mit Unterordnern:  
+
+''Get-ChildItem <Path-to-query> -Recurse | where-object {($_.PsIsContainer)} | Get-ACL | Format-List | Out-File <Out-File-Path>\<Out-File>.txt''  
 
 Computer zu einer Workgroup [hinzufügen](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/add-computer?view=powershell-5.1)  
 
@@ -113,13 +140,21 @@ Seit "Windows as a Service" muss man auf Überraschungen / Änderungen gefasst s
 
 5. [MS Docs: SMBv1 is not installed by default in Windows 10 version 1709, Windows Server version 1709 and later versions](https://docs.microsoft.com/en-nz/windows-server/storage/file-server/troubleshoot/smbv1-not-installed-by-default-in-windows)  
 
-6. [Linux:ZUGRIFF AUF NETZWERKVERZEICHNISSE MIT NAUTILUS](https://kofler.info/zugriff-auf-netzwerkverzeichnisse-mit-nautilus/)  
+6. [HomeGroup from start to finish](https://support.microsoft.com/en-us/help/17145/windows-homegroup-from-start-to-finish)  
 
-7. [MS Docs: Net services commands](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-xp/bb490949(v=technet.10))
+7. [YT: HOW TO HOMEGROUP WITHOUT HOMEGROUP in Windows 10](https://www.youtube.com/watch?v=uNeo7O6ImAo)  
 
-8. [faq-o-matic.net:Datei- und Freigabeberechtigungen in Windows](https://www.faq-o-matic.net/2015/12/28/datei-und-freigabeberechtigungen-in-windows/)
+8. [Linux:ZUGRIFF AUF NETZWERKVERZEICHNISSE MIT NAUTILUS](https://kofler.info/zugriff-auf-netzwerkverzeichnisse-mit-nautilus/)  
+
+9. [MS Docs: Net services commands](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-xp/bb490949(v=technet.10))
+
+10. [faq-o-matic.net:Datei- und Freigabeberechtigungen in Windows](https://www.faq-o-matic.net/2015/12/28/datei-und-freigabeberechtigungen-in-windows/)  
+
+11. [Active Directory – What is IGDLA & UGDLA?](https://theknowledgehound.home.blog/2020/04/12/active-directory-what-is-igdla-ugdla/)  
+
+12. [Using Group Nesting Strategy](https://blogs.msmvps.com/acefekay/2012/01/06/using-group-nesting-strategy-ad-best-practices-for-group-strategy/)
 
 ## Meta
 
 Erstellt:	18. Juli 2020  
-Modifiziert:	22. Juli 2020
+Modifiziert:	24. Juli 2020
