@@ -21,11 +21,14 @@ Die Arbeitsgruppe alias Workgroup alias Heimnetzgruppe (ab Windows 7) spielt(e) 
 ## Basiswissen
 
 Das Windows P2P besteht aus drei Elementen:  
-  <div class="parent blue" >
-  <div class="box coral" contenteditable>
 - Freigaben (Verzeichnisse, Drucker, Netzwerkresoucen)  
 - Benutzern  
 - Berechtigungen  
+
+  <div class="parent white">
+    <div class="box green">1</div>
+    <div class="box green">2</div>
+    <div class="box green">3</div>
   </div>
 
 Die "Berechtigungen" finden auf zwei unabhängigen Technologien statt:  
