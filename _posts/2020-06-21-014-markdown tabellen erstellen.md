@@ -80,7 +80,7 @@ Der Zebralook der Beispiele entsteht dadurch, dass weiter unten über CSS der TR
 **Variationen mit CSS**  
 
 <table>
-  <tr style="border: 1px solid black;">
+  <tr:hover {background-color: #f5f5f5;}>
     <th>First </th>
     <th>Second</th>
     <th>Third</th>
