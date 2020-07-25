@@ -154,6 +154,12 @@ Seit "Windows as a Service" muss man auf Überraschungen / Änderungen gefasst s
 
 12. [Using Group Nesting Strategy](https://blogs.msmvps.com/acefekay/2012/01/06/using-group-nesting-strategy-ad-best-practices-for-group-strategy/)
 
+  <div class="parent blue" >
+  <div class="box coral" contenteditable>
+    :)
+  </div>
+
+  
 ## Meta
 
 Erstellt:	18. Juli 2020  
