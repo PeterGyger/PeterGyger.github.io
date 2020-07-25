@@ -88,7 +88,7 @@ Der Zebralook der Beispiele entsteht dadurch, dass weiter unten über CSS der TR
   </tr>
   </table>
 
-  <table style="background-color: red;">
+  <table background-color: red;>
   <tr>
     <td>Content Cell</td>
     <td>Content Cell</td>
@@ -174,52 +174,6 @@ Beispiel 1: *Eine einfache HTML Tabelle*
   </tr>
 </table>
 
-Variationen mit CSS  
-
-<table>
-  <tr class="parent blue">
-    <th>First </th>
-    <th>Second</th>
-    <th>Third</th>
-    <th>Fourth</th>
-  </tr>
-  </table>
-
-  <table>
-  <tr class="box coral" contenteditable>
-    <td>Content Cell</td>
-    <td>Content Cell</td>
-    <td>Content Cell</td>
-    <td>Content Cell</td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td>Content Cell</td>
-    <td>Content Cell</td>
-    <td>Content Cell</td>
-    <td>Content Cell</td>
-  </tr>
-  </table>
-
-<table>
-  <tr>
-    <td>Content Cell</td>
-    <td>Content Cell</td>
-    <td>Content Cell</td>
-    <td>Content Cell</td>
-  </tr>
-  </table>
-
-<table>
-  <tr>
-    <td>Content Cell</td>
-    <td>Content Cell</td>
-    <td>Content Cell</td>
-    <td>Content Cell</td>
-  </tr>
-</table>
 
 Beispiel 2: *Eine HTML Tabelle zusätzlich mit den Elementen "Kopf", "Inhalt" und "Fuss"*  
 
