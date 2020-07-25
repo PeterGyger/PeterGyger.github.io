@@ -117,8 +117,9 @@ Seit "Windows as a Service" muss man auf Überraschungen / Änderungen gefasst s
 
 7. [MS Docs: Net services commands](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-xp/bb490949(v=technet.10))
 
+8. [faq-o-matic.net:Datei- und Freigabeberechtigungen in Windows](https://www.faq-o-matic.net/2015/12/28/datei-und-freigabeberechtigungen-in-windows/)
 
 ## Meta
 
 Erstellt:	18. Juli 2020  
-Modifiziert:	21. Juli 2020
+Modifiziert:	22. Juli 2020
