@@ -80,7 +80,7 @@ Der Zebralook der Beispiele entsteht dadurch, dass weiter unten über CSS der TR
 **Variationen mit CSS**  
 
 <table>
-  <tr class="parent blue">
+  <tr style="border: 1px solid black;">
     <th>First </th>
     <th>Second</th>
     <th>Third</th>
@@ -88,8 +88,8 @@ Der Zebralook der Beispiele entsteht dadurch, dass weiter unten über CSS der TR
   </tr>
   </table>
 
-  <table>
-  <tr class="box coral" contenteditable>
+  <table style="border-collapse: collapse;">
+  <tr>
     <td>Content Cell</td>
     <td>Content Cell</td>
     <td>Content Cell</td>
