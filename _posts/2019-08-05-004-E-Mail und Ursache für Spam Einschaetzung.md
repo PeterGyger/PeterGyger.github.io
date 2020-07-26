@@ -2,10 +2,10 @@
 title: "E-Mail und Ursache für Spam Einschätzung"
 date: 2019-08-05T15:34:30-04:00
 categories:
-  - Netzwerk
+  - netzwerk
 tags:
-  - EMail
-  - Sicherheit
+  - email
+  - sicherheit
 ---
 
 Ein neuer E-Mail Kontakt meldete zurück, dass meine E-Mails in seinem Spamordner abgelegt werden. Im Betreff mit dem Stichwort "Spam" gekennzeichnet. Auf allen Geräten

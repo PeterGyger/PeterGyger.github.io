@@ -2,10 +2,10 @@
 title: "Internetspeed und Firewall"
 date: 2019-06-20T15:34:30-04:00
 categories:
-  - Netzwerk
+  - netzwerk
 tags:
-  - Sicherheit
-  - Firewall
+  - hardware
+  - firewall
 ---
 
 Eine Binsenwahrheit: Die vom Anwender erlebte Internetgeschwindigkeit ist das Resultat des Zusammenspiels verschiedener Bestandteile. Der Anschluss in der Wand ist der "Demarcation Point", wo die Zuständigkeit des ISP endet. Hier ist die Rede davon, was danach kommt.  

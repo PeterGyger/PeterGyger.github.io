@@ -77,31 +77,6 @@ HTML kennt abschliessend folgende Elemente für eine Tabelle:
 
 Der Zebralook der Beispiele entsteht dadurch, dass weiter unten über CSS der TR Tag entsprechend konfiguriert wurde. Natürlich wirkt sich der Code auf alle TR Tags in diesem Dokument aus.  
 
-**Variationen mit CSS**  
-
-<table style:"color: yellow">
-  <tr>
-    <th>First </th>
-    <th>Second</th>
-    <th>Third</th>
-    <th>Fourth</th>
-  </tr>
-  </table>
-
-Zweite variation!
-
-  <table style:"background-color: red">
-  <tr>
-    <td>Content Cell</td>
-    <td>Content Cell</td>
-    <td>Content Cell</td>
-    <td>Content Cell</td>
-  </tr>
-</table>
-
-
-
-
 Beispiel 1: *Eine einfache HTML Tabelle*  
 
 #### Code 

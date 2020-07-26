@@ -2,10 +2,10 @@
 title: "E-Book App Moon Reader"
 date: 2019-06-09T15:34:30-04:00
 categories:
-  - Windows
+  - android
 tags:
-  - Betriebssytem
-  - Updatepdate
+  - app
+  - ebook
 ---
 
 Mit der Android App "Moon Reader" ist mein E-Book Reader in die "2. Wahl Liga" zurück gerutscht. Das Display meines Smartphones ist zwar kleiner als mein E-Book Reader, aber die Schrift wird hochaufgelöst und scharf angezeigt.  
