@@ -2,10 +2,10 @@
 title: "Android App Outlook für Exchange E-Mail Adresse einrichten"
 date: 2019-11-30T15:34:30-04:00
 categories:
-  - Microsoft
+  - android
 tags:
-  - Outlook
-  - App
+  - email
+  - app
 ---
 
 Wenn eine Mailadresse über einen Exchange Server läuft, muss die Konifiguration des E-Mail Programmes in der App um ein weiteres Feld ergänzt werden. Dieses heisst "Domäne/Benutzername". Mir ist es in den letzten Jahren zweimal passiert, dass die Konfiguration verloren ging. Daher diese kurze Anleitung. Notiz an mich selbst.  

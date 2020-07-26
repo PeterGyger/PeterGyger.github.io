@@ -2,10 +2,10 @@
 title: "Markdown und Tabelle  "
 date:  2020-06-21T5:34:30-04:00
 categories:  
-  - W3C  
+  - w3c  
 tags:  
-  - Markdown  
-  - Git  
+  - markdown  
+  - git  
 ---  
 
 ## Um was geht es?
@@ -555,6 +555,8 @@ Mit der Auszeichnungssrpache Markdown (GitHub) habe ich verschiedene Möglichkei
 5. [SelfHTML Aufbau einer Tabelle](https://wiki.selfhtml.org/wiki/HTML/Tabellen/Aufbau_einer_Tabelle)  
 
 6. [css-tricks.com: A Complete Guide to the Table Element](https://css-tricks.com/complete-guide-table-element/)  
+
+7. [W3C Markdown Syntax](https://www.w3.org/community/markdown/wiki/Syntax)
 
 ## Meta
 

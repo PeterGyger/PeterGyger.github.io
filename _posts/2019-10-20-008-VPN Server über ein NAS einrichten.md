@@ -2,9 +2,11 @@
 title: "VPN Server über ein NAS einrichten"
 date: 2019-10-20T11:34:30-04:00
 categories:
-  - Netzwerk
+  - netzwerk
+  - hardware
 tags:
   - VPN
+  - nas
 ---
 
 Eine private Cloud sollte über verschlüsselte VPN Verbindung genutzt werden. Die Gründe sind Legion und im Internet en Mass zu finden.  

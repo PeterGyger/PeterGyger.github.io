@@ -2,10 +2,10 @@
 title: "Windows Netzwerkfunktion Peer to Peer"
 date: 2020-07-11T5:31:30-04:00
 categories:
-  - Windows
+  - windows
 tags:
-  - Netzwerk
-  - Grundlagen
+  - netzwerk
+  - grundlagen
 ---
 
 ## Um was geht es?

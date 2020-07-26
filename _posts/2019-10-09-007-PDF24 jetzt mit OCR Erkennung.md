@@ -2,10 +2,10 @@
 title: "PDF24 jetzt mit OCR Erkennung"
 date: 2019-10-09T06:34:30-04:00
 categories:
-  - Windows
+  - windows
 tags:
-  - Tool
-  - EPublish
+  - tool
+  - pdf
 ---
 
 Windows 10 hat nebst seinem XPS Druckertreiber, seit längerem ein PDF Druckertreiber dabei. Dennoch benutze ich seit Jahren das kostenlose Tool [PDF24](https://de.pdf24.org/). Dort hat im August dieses Jahr ein Update dem Tool ein neues Feature geschenkt: OCR.  

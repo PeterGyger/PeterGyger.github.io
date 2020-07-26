@@ -2,10 +2,10 @@
 title: "MS DevCon und Nirsoft DevManView für die Geräteverwaltung"
 last_modified_at: 2012-03-19T16:20:02-05:00
 categories:
-  - Windows
+  - windows
 tags:
-  - Betriebssytem
-  - Updatepdate
+  - tool
+  - nirsoft
 ---
 
 Wenn ich nachfolgend auf das Microsoft Kommanozeilen (CLI) Programm DevCon (DevCon = "Device Console") eingehen, ist immer auch die Nirsoft Variante DevManView gemeint. Die Programme sind für denselben Zweck konzipiert. Auf die Unterschiede gerade in den Befehlen und Parametergehe ich weiter unten ein.  

@@ -2,10 +2,11 @@
 title: "Android: Kontakte aus Outlook App verschwunden"  
 date:  2020-06-21T5:34:30-04:00
 categories:
-  - Support  
+  - android  
 tags:  
-  - Android  
-  - MS App  
+  - support  
+  - app
+  - outlook  
 ---  
 
 ## Um was geht es?  
