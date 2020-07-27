@@ -4,8 +4,7 @@ date: 2019-09-10T07:34:30-04:00
 categories:
   - windows
 tags:
-  - browser
-  - beta
+    - beta
 ---
 
  hat den "Internet Explorer" mit der Windows Version 10 abgelöst. Der neue Browser hiess ["Microsoft Edge"](https://www.microsoft.com/en-us/windows/microsoft-edge). Jetzt wird unter dem gleichen Namen "Edge" ein neuer Browser ankündigt: Projekt Anaheim. Auch für die Windows Versionen 7 / 8 und 8.1 und MacOS. Jedoch keine 32 Bit (X86) Version. Das heisst nicht, dass Chrome der neue Browser von Windows 10 wird. Das Herzstück des Chrome Browsers ist als Open Source mit dem Namen "Chromium" zur Nutzung freigegeben. Das hat zum Beispiel Jon Stephenson von Tetzchner verwendet, um seinen [Browser Vivaldi] zu entwickeln.

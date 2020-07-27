@@ -3,9 +3,8 @@ title: "VPN Server über ein NAS einrichten"
 date: 2019-10-20T11:34:30-04:00
 categories:
   - netzwerk
-  - hardware
 tags:
-  - VPN
+  - vpn
   - nas
 ---
 

@@ -4,9 +4,9 @@ date:  2020-06-21T5:34:30-04:00
 categories:
   - android  
 tags:  
-  - support  
+  - tipp  
   - app
-  - outlook  
+  - email  
 ---  
 
 ## Um was geht es?  

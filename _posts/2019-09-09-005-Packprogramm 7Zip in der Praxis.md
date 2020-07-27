@@ -3,8 +3,7 @@ title: "Packprgramm 7Zip in der Praxis"
 date: 2019-09-12T09:34:30-04:00
 categories:
   - windows
-  - software
-tags:
+  tags:
   - tool
 ---
 

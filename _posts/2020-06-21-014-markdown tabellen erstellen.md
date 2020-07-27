@@ -2,10 +2,10 @@
 title: "Markdown und Tabelle  "
 date:  2020-06-21T5:34:30-04:00
 categories:  
-  - w3c  
+  - netzwerk  
 tags:  
   - markdown  
-  - git  
+  - tipp
 ---  
 
 ## Um was geht es?
