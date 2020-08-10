@@ -93,7 +93,7 @@ Diese Funktionen setzen i.d.R. eine Shell mit Administrator Berechtigungen vorau
 
 net file - Zeigt die Dateien auf dem eigenen Computer an, auf die von anderen zugegriffen wird  
 
-![net files](/_image/17-2.png)  
+![net files](/image/17-2.png)  
 
 net share - [Zeigt die Shares (freigegebene Ordner) an](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh750728(v=ws.11)).  
 
@@ -107,7 +107,7 @@ net use x: \\computername\freigabenname - Laufwerk X: für das Verzeichnis \\com
 
 fsmgt.msc - Freigaben anzeigen / verwalten  
 
-compmgmt.msc - ![Computermanagement Konsole](/_image/17-1.png)  
+compmgmt.msc - ![Computermanagement Konsole](/image/17-1.png)  
 
 ## Shell: Powershell  
 
