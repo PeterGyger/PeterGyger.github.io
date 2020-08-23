@@ -64,7 +64,7 @@ links:
 footer:
   links:
     - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin-square"
+      icon: "<i class="fab fa-linkedin"></i>"
       url: "https://www.linkedin.com/in/peter-gyger-89aa7414a" 
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
