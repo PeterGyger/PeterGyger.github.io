@@ -17,8 +17,7 @@ title: Willkommen! (ง ͡ʘ ͜ʖ ͡ʘ)ง Private Entwürfe zu IT Themen ༼ �
 email: petergyger@phontonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Hallo! Fragen Sie - vielleicht habe ich eine Antwort 
-twitter_username: petergyger
-github_username: PeterGyger
+
 minimal_mistakes_skin: air
 search: true
 
@@ -58,12 +57,15 @@ plugins:
 author:
   name   : "Peter Gyger"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Jeden Sonntag wird ein (oder mehrere) Artikel erstellt. D.h. am 23. August wird ein neuer Beitrag veröffentlicht"
+  bio    : "Jeden Sonntag wird ein (oder mehrere) Artikel erstellt. D.h. am 30. August wird ein neuer Beitrag veröffentlicht"
 
 links:
 
 footer:
   links:
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin-square"
+      url: "www.linkedin.com/in/peter-gyger-89aa7414a" 
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/petergyger"

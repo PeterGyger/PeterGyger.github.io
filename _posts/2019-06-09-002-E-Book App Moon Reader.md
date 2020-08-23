@@ -40,5 +40,5 @@ Ich setzte voraus, dass die App auf einem Android Gerät mit der Version => 6 (M
 
 ## Meta
 
-Erstellt:		9. Juni 2019  
-Modifiziert:	9. Juni 2019  
+Erstellt:		9. Juni 2020  
+Modifiziert:	9. Juni 2020  

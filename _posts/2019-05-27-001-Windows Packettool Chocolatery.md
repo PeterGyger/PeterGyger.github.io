@@ -5,7 +5,6 @@ categories:
   - windows
 tags:
   - tool
-  - 
 ---
 
 ## Überblick  
@@ -110,5 +109,5 @@ Die Datei "packages.config" sieht so aus:
 
 ## Meta
 
-Erstellt:		27. Mai 2019  
-Modifiziert:	27. Mai 2019  
+Erstellt:		27. Mai 2020  
+Modifiziert:	27. Mai 2020  
