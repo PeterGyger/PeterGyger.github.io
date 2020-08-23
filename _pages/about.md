@@ -6,8 +6,7 @@ title: "About"
 Nachfolgend ein wenig Hintergrund zu der Person die hier schreibt. Ich bin im Kanton Zürich geboren und lebe im Zücher Oberland. Väterlicherseits eng mit dem Bezirk Thun im Kanton Bern verbunden.
 {: .notice}
 
-Meine Berufsplattform ist Twitter
-[](<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>)  
+Meine Berufsplattform ist [Linkedin](https://www.linkedin.com/in/peter-gyger-89aa7414a)  
 
 Mit dem Sinclair ZX 81 begann meine Faszination für Computer, Netzwerke und Technologien. "Computer" fordern meinen Intellekt auf vielfältige und freundliche Art täglich heraus. Und es wird spannender und spannender...
 
