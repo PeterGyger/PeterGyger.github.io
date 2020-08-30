@@ -57,14 +57,14 @@ plugins:
 author:
   name   : "Peter Gyger"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Jeden Sonntag wird ein (oder mehrere) Artikel erstellt. D.h. am 30. August wird ein neuer Beitrag veröffentlicht"
+  bio    : "Jeden Sonntag wird ein (oder mehrere) Artikel erstellt. D.h. am 6. September wird ein neuer Beitrag veröffentlicht"
 
 links:
 
 footer:
   links:
     - label: "Linkedin"
-      icon: "fas fa-fw fa-link"
+      icon: 
       url: "https://www.linkedin.com/in/peter-gyger-89aa7414a" 
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
