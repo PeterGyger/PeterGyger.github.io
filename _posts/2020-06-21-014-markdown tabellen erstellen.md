@@ -422,61 +422,74 @@ Transform text with capitalization classes via HTML:
 
 Or with Kramdown:
 
-Lowercased text
+Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
 {: .text-lowercase}
 
-Uppercased text
+Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
 {: .text-uppercase}
 
-Capitalized text
+Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
 {: .text-capitalize}
 
 **Textformatierung**  
 
-Left aligned text
+Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
 {: .text-left}
 
-Center aligned text.
+Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
 {: .text-center}
 
-Right aligned text.
+Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
 {: .text-right}
 
-Justified text.
+Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
 {: .text-justify}
 
-No wrap text.
+Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
 {: .text-nowrap}
 
 **Buttons**  
 
+```<a href="#" class="btn btn--primary">Link Text</a>```  
 <a href="#" class="btn btn--primary">Link Text</a>  
 
+```<a href="#" class="btn btn--success">Link Text</a>```    
 <a href="#" class="btn btn--success">Link Text</a>  
 
+```<a href="#" class="btn btn--warning">Link Text</a>```    
 <a href="#" class="btn btn--warning">Link Text</a>  
 
+```<a href="#" class="btn btn--danger">Link Text</a>```    
 <a href="#" class="btn btn--danger">Link Text</a>  
 
+```<a href="#" class="btn btn--info	">Link Text</a>```    
 <a href="#" class="btn btn--info	">Link Text</a>  
 
+```<a href="#" class="btn btn--inverse">Link Text</a>```  
 <a href="#" class="btn btn--inverse">Link Text</a>  
 
+```<a href="#" class="btn btn--light-outline">Link Text</a>```  
 <a href="#" class="btn btn--light-outline">Link Text</a>  
 
-Mit der Notice Class können verschiedenfarbige Hintergrundfarbe festgelegt werden. Was mir mit CSS nicht gelang.  
+**Mit der Notice Class können verschiedenfarbige Hintergrundfarbe festgelegt werden. Was mir mit CSS nicht gelang**  
 
-Watch out! This paragraph of text has been emphasized with the {: .notice} class.
+Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
+{: .notice}
 
-Watch out! This paragraph of text has been emphasized with the {: .notice--primary} class.
+Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
+{: .notice--primary}
 
-Watch out! This paragraph of text has been emphasized with the {: .notice--info} class.
+Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
+{: .notice--info}
 
-Watch out! This paragraph of text has been emphasized with the {: .notice--warning} class.
+Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
+{: .notice--warning}
 
-Watch out! This paragraph of text has been emphasized with the {: .notice--success} class.
+Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
+{: .notice--success}
 
-Watch out! This paragraph of text has been emphasized with the {: .notice--danger} class.
+Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
+{: .notice--danger}
 
 
 ## Fazit
@@ -499,10 +512,13 @@ Mit der Auszeichnungssrpache Markdown (GitHub) habe ich verschiedene Möglichkei
 
 6. [css-tricks.com: A Complete Guide to the Table Element](https://css-tricks.com/complete-guide-table-element/)  
 
-7. [W3C Markdown Syntax](https://www.w3.org/community/markdown/wiki/Syntax)
+7. [W3C Markdown Syntax](https://www.w3.org/community/markdown/wiki/Syntax)  
+
+8. [TU-Dresden: Markdown - Eine Übersicht - Tabellen](https://elvis.inf.tu-dresden.de/wiki/index.php/Markdown_-_Eine_%C3%9Cbersicht#Fett-_und_Kursivdarstellung)  
+
 
 ## Meta
 
-Erstellt:		21. Juni 2020  
-Modifiziert:	        21. Juni 2020  
+Erstellt:		          21. Juni 2020  
+Modifiziert:	        8. September 2020  
 
