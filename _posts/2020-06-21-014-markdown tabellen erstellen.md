@@ -16,7 +16,7 @@ Mit der Auszeichnungssrpache Markdown (GitHub) habe ich verschiedene Möglichkei
 
 Die Code Beispiele sind aus der GitHub Markdown Hilfe  
 
-Beispiel 1   
+### Beispiel 1   
 
 #### Code  
 
@@ -40,7 +40,7 @@ Beispiel 1
 
 Der Titel einer Spalte wird durch Bindestriche von den Zellen mit Daten getrennt. Drei Bindestriche sind das Minium. Die Spaltenbreite wird automatisch gesetzt.  
 
-Beispiel 2  
+### Beispiel 2  
 
 #### Code  
 
@@ -59,7 +59,7 @@ Beispiel 2
 Text kann auch als Block formatiert werden. Dafür verwendet man [Gravis](https://de.wikipedia.org/wiki/Gravis_(Typografie)#Darstellung_auf_dem_Computer): `  
 Das Beispiel aus der GitHub Hilfedatei:
 
-![NoText](../images/markdown/triplebackticks.png)  
+![NoText](../image/14-1.png)  
 
 Markierungsmöglichkeiten sind dieselben wie in Markdown allgemein. * für kursiv, ** für fett, kann man auch kombinieren. Details dazu stehen in der [GitHub Helpdatei](https://help.github.com/en/articles/basic-writing-and-formatting-syntax#styling-text).
 
@@ -77,7 +77,9 @@ HTML kennt abschliessend folgende Elemente für eine Tabelle:
 
 Der Zebralook der Beispiele entsteht dadurch, dass weiter unten über CSS der TR Tag entsprechend konfiguriert wurde. Natürlich wirkt sich der Code auf alle TR Tags in diesem Dokument aus.  
 
-Beispiel 1: *Eine einfache HTML Tabelle*  
+### Beispiel 1: *Eine einfache HTML Tabelle*  
+
+Die Titel der Spalten (First / Second / ...) werden von Markdown automatisch dunkel eingefärbt, wenn man das HTML Tag "th" verwendet.  
 
 #### Code 
 
@@ -152,7 +154,7 @@ Beispiel 1: *Eine einfache HTML Tabelle*
 </table>
 
 
-Beispiel 2: *Eine HTML Tabelle zusätzlich mit den Elementen "Kopf", "Inhalt" und "Fuss"*  
+### Beispiel 2: *Eine HTML Tabelle zusätzlich mit den Elementen "Kopf", "Inhalt" und "Fuss"*  
 
 #### Code 
 
@@ -203,7 +205,7 @@ Beispiel 2: *Eine HTML Tabelle zusätzlich mit den Elementen "Kopf", "Inhalt" un
 </table>  
 
 
-Beispiel 3:  *Mit dem Element "colspan" können Zellen zu einer zusammengefasst werden*  
+### Beispiel 3:  *Mit dem Element "colspan" können Zellen zu einer zusammengefasst werden*  
 
 #### Code  
  
@@ -255,7 +257,7 @@ Beispiel 3:  *Mit dem Element "colspan" können Zellen zu einer zusammengefasst 
     </tfoot>  
 </table>  
 
-Beispiel 4: Mit dem Element "rowspan" können Spalten zusammengefasst werden.  
+### Beispiel 4: Mit dem Element "rowspan" können Spalten zusammengefasst werden.  
 
 #### Code 
 
@@ -343,11 +345,11 @@ Wenn der Google Font ["Space Mono"](https://google-webfonts-helper.herokuapp.com
 Die CSS Angaben sind hierarchisch organisiert. Grundlegende Angaben die für das ganze Repository ("Jeckyl Now" Build) gelten, stehen in der Datei "style.css". Diese werden ggf. überschrieben, wenn ich in einer MD Datei (Blogpost) zum gleichen HTML Tag Angaben mache. Kug (Kurz und gut): Wenn in der Datei "style.css" steht, dass der Tag H1 (Titel) grün sein soll, jedoch in einer MD Datei H1 ist rot definiert ist, dann wird in dieser Datei der Titel in rot angezeigt.  
 
 Dasselbe gilt, wenn ich zu einem einzelnen Tag eine CSS Anweisung setze. Diese wird die globale und auch die CSS Anweisungen in der Datei selber überschreiben. Da die Stlye.css anhand der Endung als W3C (HTML / CSS / etc.) Datei von VS Code erkannt wird, kann ich dort auch mit den integrierten Tools und Modulen arbeiten. Z.B. um einen Farbcode auszuwählen.  
-![NoText](../images/markdown/vsccolor.png)  
+![NoText](../image/14-2.png)  
 
 Die CSS Klasse die im Beispiel angegeben ist, wirkt für die nachfolgenden Beispiele weiter. D.h. der farbige Hintergrund der Titelzeile in Beispiel 2 und nachfolgend wird durch die CSS Befehle in Beispiel 1 bewirkt.  
 
-Beispiel 1  
+### Beispiel 1  
 
 #### Code
 
@@ -442,7 +444,7 @@ Beispiel 1
   </tr>
 </table>  
 
-Beispiel 2 Colspan mit individueller Breite der Spalten  
+### Beispiel 2 Colspan mit individueller Breite der Spalten  
 
 #### Code  
 
@@ -488,7 +490,7 @@ Beispiel 2 Colspan mit individueller Breite der Spalten
     </tr> 
 </table>
 
-Beispiel 3: Tabellenzellen direkt formatiert
+### Beispiel 3: Tabellenzellen direkt formatiert
 
 #### Code  
 
@@ -537,6 +539,125 @@ Beispiel 3: Tabellenzellen direkt formatiert
     </tr>
 </tbody>
 </table>  
+
+### Beispiel 4
+
+Die Hintergrund Farbe kann man auch mit dem Befehl "rgba" festlegen. Diese Farbe ist transparent. Farbdefinitionen über RGB bestehen ja aus den drei Werten (Red / Green / Blue). Der vierte Wert des RGBA Befehls definiert den Alphakanal. Dieser definiert die Deckkraft der 3 Farbwerte.  
+Details hier auf ["css-tricks.com"](https://css-tricks.com/rgba-browser-support/)  
+
+#### Code  
+
+ ```
+<style type="text/css">
+    table {
+        font-family: 'Cascadia Code', 'Fira Code', Consolas, 'Courier New', Courier, monospace;
+        font-size: 13px;
+        white-space: nowrap;
+    }
+
+    thead th {
+        background-color: rgba(255, 165, 0, 0.62)
+    }
+
+    tbody tr td {
+        background-color: #f7f7f7
+    }
+</style>
+<table>
+    <thead>
+        <tr>
+            <th>Spalte Eins</th>
+            <th>Spalte Zwei</th>
+            <th>Spalte Drei</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">Class<br>Zeile 1 </td>
+            <td>brown fox jumps over the lazy dog</td>
+            <td>Franz jagt im komplett verwahrlosten Taxi quer durch Bayern</td>
+        </tr>
+        <tr>
+            <td>brown fox jumps over the lazy dog</td>
+            <td>Franz jagt im komplett verwahrlosten Taxi quer durch Bayern</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Class<br>Zeile 2 </td>
+            <td>brown fox jumps over the lazy dog</td>
+            <td>Franz jagt im komplett verwahrlosten Taxi quer durch Bayern</td>
+        </tr>
+        <tr>
+            <td>brown fox jumps over the lazy dog</td>
+            <td>Franz jagt im komplett verwahrlosten Taxi quer durch Bayern</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Class<br>Zeile 3 </td>
+            <td>brown fox jumps over the lazy dog</td>
+            <td>Franz jagt im komplett verwahrlosten Taxi quer durch Bayern</td>
+        </tr>
+        <tr>
+            <td>brown fox jumps over the lazy dog</td>
+            <td>Franz jagt im komplett verwahrlosten Taxi quer durch Bayern</td>
+        </tr>
+    </tbody>
+</table>
+```
+
+#### Ausgabe   
+
+<table>
+    <thead>
+        <tr>
+            <th>Spalte Eins</th>
+            <th>Spalte Zwei</th>
+            <th>Spalte Drei</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">Class<br>Zeile 1 </td>
+            <td>brown fox jumps over the lazy dog</td>
+            <td>Franz jagt im komplett verwahrlosten Taxi quer durch Bayern</td>
+        </tr>
+        <tr>
+            <td>brown fox jumps over the lazy dog</td>
+            <td>Franz jagt im komplett verwahrlosten Taxi quer durch Bayern</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Class<br>Zeile 2 </td>
+            <td>brown fox jumps over the lazy dog</td>
+            <td>Franz jagt im komplett verwahrlosten Taxi quer durch Bayern</td>
+        </tr>
+        <tr>
+            <td>brown fox jumps over the lazy dog</td>
+            <td>Franz jagt im komplett verwahrlosten Taxi quer durch Bayern</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Class<br>Zeile 3 </td>
+            <td>brown fox jumps over the lazy dog</td>
+            <td>Franz jagt im komplett verwahrlosten Taxi quer durch Bayern</td>
+        </tr>
+        <tr>
+            <td>brown fox jumps over the lazy dog</td>
+            <td>Franz jagt im komplett verwahrlosten Taxi quer durch Bayern</td>
+        </tr>
+    </tbody>
+</table>
+
+HSLA ist eine weitere Variante
+
+<style type="text/css">
+  td {
+        background-color: hsla(120, 100%, 50%, 0.25);
+    }
+</style> 
+<table>
+    <tr>
+        <td>brown fox jumps over the lazy dog</td>
+        <td>Franz jagt im komplett verwahrlosten Taxi quer durch Bayern</td>
+    </tr>
+</table>
+
 
 Mit dem ["HTML Table Style Generator"](http://tablestyler.com) von Eli Geske können auch "nicht Webentwickler" wie ich sich schöne CSS Tabellen Design zusammen klicken. Danke an dieser Stelle an Eli Geske für den tollen Webservice!  
 
