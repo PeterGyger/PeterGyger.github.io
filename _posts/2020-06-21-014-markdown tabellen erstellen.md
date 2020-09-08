@@ -473,23 +473,41 @@ Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
 
 **Mit der Notice Class können verschiedenfarbige Hintergrundfarbe festgelegt werden. Was mir mit CSS nicht gelang**  
 
+```Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
+{: .notice}```  
+
 Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
 {: .notice}
+
+```Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
+{: .notice--primary}```  
 
 Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
 {: .notice--primary}
 
+```Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
+{: .notice--info}```  
+
 Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
 {: .notice--info}
+
+```Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
+{: .notice--warning}  ```
 
 Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
 {: .notice--warning}
 
-Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
-{: .notice--success}
+```Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
+{: .notice--success}  ```
 
 Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
-{: .notice--danger}
+{: .notice--success}  
+
+```Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
+{: .notice--danger}```
+
+Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
+{: .notice--danger}  
 
 
 ## Fazit
