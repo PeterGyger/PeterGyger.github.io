@@ -265,7 +265,47 @@ Die Titel der Spalten (First / Second / ...) werden von Markdown automatisch dun
 </table>  
 
 
+## Fazit  
+
+Leider verwendet Markdown die letzte CSS Formatierung für die ganze Datei. D.h. mehrere Angaben zu Farben werden vom letzten Eintrag auf der Seite überschrieben.  
+
+Man kann "Tabellen" auch zum reinen formatieren von Text verwenden. Z.B. habe ich in diesem Blog, in der "About" (Biografie) Seite die Abschnittstitel damit eingefärbt. Natürlich gilt auch hier die gleiche Einschränkung wie im vorhergehenden Absatz angemerkt.
+
+Left aligned text.
+{: .text-left}
+
+Center aligned text.
+{: .text-center}
+
+Right aligned text.
+{: .text-right}
+
+Justified text.
+{: .text-justify}
+
+No wrap text.
+{: .text-nowrap}
+
+Lowercased text
+{: .text-lowercase}
+
+Uppercased text
+{: .text-uppercase}
+
+Capitalized text
+{: .text-capitalize}
+
+
+
+## Quellen
+
+1. [TU-Dresden: Markdown - Eine Übersicht](https://elvis.inf.tu-dresden.de/wiki/index.php/Markdown_-_Eine_%C3%9Cbersicht#Tabellen)  
+2. [CSS color • Farbwerte für Schrift, background und border](https://www.mediaevent.de/css/color.html)  
+3. 
+
+
+
 ## Meta
 
 Erstellt:		21. April 2019  
-Modifiziert:	21. April 2019
+Modifiziert:	2. September 2020
