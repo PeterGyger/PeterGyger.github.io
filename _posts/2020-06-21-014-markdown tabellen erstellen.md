@@ -12,6 +12,8 @@ tags:
 
 Mit der Auszeichnungssrpache Markdown (GitHub) habe ich verschiedene Möglichkeiten Tabellen darzustellen. Optisch bietet Markdown wenig Möglichkeiten. Aber mit den W3C Sprachen (HTML / CSS) erreiche ich sehr viel mehr. Etwas Webdesign für Markdown.  
 
+Im weiteren Sinne sind (unsichtbare) Tabellen schon immer auch Gestaltungswerkzeuge einer Website gewesen. Hier geht es in zweiter Linie auch darum, die Darstellung einer Markdown Site mit HTML / CSS zu verbessern.  
+
 ## 1. Markdown pur
 
 Die Code Beispiele sind aus der GitHub Markdown Hilfe  
@@ -56,10 +58,39 @@ Der Titel einer Spalte wird durch Bindestriche von den Zellen mit Daten getrennt
 | ------------ | ------------- | ------------ | ------------- |
 | Content Cell | Content Cell  | Content Cell | Content Cell  |
 
+### Beispiel 3  
+
+#### Code  
+
+ ```
+| Header1 | Header2 | Header3 |
+|:--------|:-------:|--------:|
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|-----------------------------|
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|=============================|
+| Foot1   | Foot2   | Foot3   | 
+ ```
+
+#### Ausgabe  
+
+| Header1 | Header2 | Header3 |
+|:--------|:-------:|--------:|
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|-----------------------------|
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|=============================|
+| Foot1   | Foot2   | Foot3   |  
+
+
 Text kann auch als Block formatiert werden. Dafür verwendet man [Gravis](https://de.wikipedia.org/wiki/Gravis_(Typografie)#Darstellung_auf_dem_Computer): `  
 Das Beispiel aus der GitHub Hilfedatei:
 
-![NoText](../image/14-1.png)  
+![NoText](/image/14-1.png)  
 
 Markierungsmöglichkeiten sind dieselben wie in Markdown allgemein. * für kursiv, ** für fett, kann man auch kombinieren. Details dazu stehen in der [GitHub Helpdatei](https://help.github.com/en/articles/basic-writing-and-formatting-syntax#styling-text).
 
@@ -93,7 +124,7 @@ Wenn der Google Font ["Space Mono"](https://google-webfonts-helper.herokuapp.com
 Die CSS Angaben sind hierarchisch organisiert. Grundlegende Angaben die für das ganze Repository ("Jeckyl Now" Build) gelten, stehen in der Datei "style.css". Diese werden ggf. überschrieben, wenn ich in einer MD Datei (Blogpost) zum gleichen HTML Tag Angaben mache. Kug (Kurz und gut): Wenn in der Datei "style.css" steht, dass der Tag H1 (Titel) grün sein soll, jedoch in einer MD Datei H1 ist rot definiert ist, dann wird in dieser Datei der Titel in rot angezeigt.  
 
 Dasselbe gilt, wenn ich zu einem einzelnen Tag eine CSS Anweisung setze. Diese wird die globale und auch die CSS Anweisungen in der Datei selber überschreiben. Da die Stlye.css anhand der Endung als W3C (HTML / CSS / etc.) Datei von VS Code erkannt wird, kann ich dort auch mit den integrierten Tools und Modulen arbeiten. Z.B. um einen Farbcode auszuwählen.  
-![NoText](../image/14-2.png)  
+![NoText](/image/14-2.png)  
 
 Die CSS Klasse die im Beispiel angegeben ist, wirkt für die nachfolgenden Beispiele weiter. D.h. der farbige Hintergrund der Titelzeile in Beispiel 2 und nachfolgend wird durch die CSS Befehle in Beispiel 1 bewirkt.  
 
@@ -450,67 +481,127 @@ Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
 
 **Buttons**  
 
-```<a href="#" class="btn btn--primary">Link Text</a>```  
-<a href="#" class="btn btn--primary">Link Text</a>  
 
-```<a href="#" class="btn btn--success">Link Text</a>```    
-<a href="#" class="btn btn--success">Link Text</a>  
+[Default Button](#){: .btn}
+[Primary Button](#){: .btn .btn--primary}
+[Success Button](#){: .btn .btn--success}
+[Warning Button](#){: .btn .btn--warning}
+[Danger Button](#){: .btn .btn--danger}
+[Info Button](#){: .btn .btn--info}
+[Inverse Button](#){: .btn .btn--inverse}
+[Light Outline Button](#){: .btn .btn--light-outline}
 
-```<a href="#" class="btn btn--warning">Link Text</a>```    
-<a href="#" class="btn btn--warning">Link Text</a>  
+```markdown
+[Default Button Text](#link){: .btn}
+[Primary Button Text](#link){: .btn .btn--primary}
+[Success Button Text](#link){: .btn .btn--success}
+[Warning Button Text](#link){: .btn .btn--warning}
+[Danger Button Text](#link){: .btn .btn--danger}
+[Info Button Text](#link){: .btn .btn--info}
+[Inverse Button](#link){: .btn .btn--inverse}
+[Light Outline Button](#link){: .btn .btn--light-outline}
+```
 
-```<a href="#" class="btn btn--danger">Link Text</a>```    
-<a href="#" class="btn btn--danger">Link Text</a>  
+[X-Large Button](#){: .btn .btn--primary .btn--x-large}
+[Large Button](#){: .btn .btn--primary .btn--large}
+[Default Button](#){: .btn .btn--primary }
+[Small Button](#){: .btn .btn--primary .btn--small}
 
-```<a href="#" class="btn btn--info	">Link Text</a>```    
-<a href="#" class="btn btn--info	">Link Text</a>  
+```markdown
+[X-Large Button](#link){: .btn .btn--primary .btn--x-large}
+[Large Button](#link){: .btn .btn--primary .btn--large}
+[Default Button](#link){: .btn .btn--primary }
+[Small Button](#link){: .btn .btn--primary .btn--small}
 
-```<a href="#" class="btn btn--inverse">Link Text</a>```  
-<a href="#" class="btn btn--inverse">Link Text</a>  
 
-```<a href="#" class="btn btn--light-outline">Link Text</a>```  
-<a href="#" class="btn btn--light-outline">Link Text</a>  
+Mit der Notice Class können verschiedenfarbige Hintergrundfarbe festgelegt werden. Was mir mit CSS nicht gelang. Der Klassenbezeichner - z.B. "{: .notice}" muss unter dem Text auf einer neuen Zeile geschrieben sein.
 
-**Mit der Notice Class können verschiedenfarbige Hintergrundfarbe festgelegt werden. Was mir mit CSS nicht gelang**  
 
-```Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
+```Franz jagt im komplett verwahrlosten Taxi quer durch Bayern  
 {: .notice}```  
 
 Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
 {: .notice}
 
-```Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
+```Franz jagt im komplett verwahrlosten Taxi quer durch Bayern  
 {: .notice--primary}```  
 
 Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
 {: .notice--primary}
 
-```Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
+```Franz jagt im komplett verwahrlosten Taxi quer durch Bayern  
 {: .notice--info}```  
 
 Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
 {: .notice--info}
 
-```Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
+```Franz jagt im komplett verwahrlosten Taxi quer durch Bayern  
 {: .notice--warning}  ```
 
 Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
 {: .notice--warning}
 
-```Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
+```Franz jagt im komplett verwahrlosten Taxi quer durch Bayern  
 {: .notice--success}  ```
 
 Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
 {: .notice--success}  
 
-```Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
+```Franz jagt im komplett verwahrlosten Taxi quer durch Bayern  
 {: .notice--danger}```
 
 Franz jagt im komplett verwahrlosten Taxi quer durch Bayern
 {: .notice--danger}  
 
+Nota bene:
 
-## Fazit
+Checkboxen können wie folgt dargestellt werden
+``
+- [ ] Milk
+- [x] Rice
+- [ ] Eggs
+```
+
+- [ ] Milk
+- [x] Rice
+- [ ] Eggs
+
+Wenn man Zeichen verwenden will, die Markdown interpretiert kann man diese mit einem Backslash maskieren:  
+
+\*Sterne\*  
+
+Dieser Trick kann für diese Sonderzeichen angewandt werden:  
+```
+\   Backslash  
+`   Backtick  
+*   Sternchen  
+_   Unterstrich  
+{}  Geschweifte Klammern  
+[]  Eckige Klammern  
+()  Runde Klammern  
+#   Raute aka Gartenhag   
++   Plus-Zeichen  
+-   Minus-Zeichen  
+.   Punkt  
+!   Ausrufezeichen  
+```
+
+Mathematische Ausdrücke - nach Katex - können wie folgt dargestellt werden:  
+```
+$$
+f(x) = \int_{-\infty}^\infty
+	\hat f(\xi)\,e^{2 \pi i \xi x}
+	\,d\xi
+$$
+```
+
+$$
+f(x) = \int_{-\infty}^\infty
+	\hat f(\xi)\,e^{2 \pi i \xi x}
+	\,d\xi
+$$
+
+## Fazit  
 
 Mit dem ["HTML Table Style Generator"](http://tablestyler.com) von Eli Geske können auch "nicht Webentwickler" wie ich sich schöne CSS Tabellen Design zusammen klicken. Danke an dieser Stelle an Eli Geske für den tollen Webservice!  
 
@@ -533,6 +624,14 @@ Mit der Auszeichnungssrpache Markdown (GitHub) habe ich verschiedene Möglichkei
 7. [W3C Markdown Syntax](https://www.w3.org/community/markdown/wiki/Syntax)  
 
 8. [TU-Dresden: Markdown - Eine Übersicht - Tabellen](https://elvis.inf.tu-dresden.de/wiki/index.php/Markdown_-_Eine_%C3%9Cbersicht#Fett-_und_Kursivdarstellung)  
+
+9. <https://joplinapp.org/markdown/>
+
+10. [WP: Tabellen für Fortgeschrittene](https://de.wikipedia.org/wiki/Hilfe:Tabellen_f%C3%BCr_Fortgeschrittene)  
+
+11. <https://www.mediaevent.de/tutorial/farbcodes.html>  
+
+12. [Devoth‘s HEX 2 RGBA Color Calculator](http://hex2rgba.devoth.com/)  
 
 
 ## Meta
