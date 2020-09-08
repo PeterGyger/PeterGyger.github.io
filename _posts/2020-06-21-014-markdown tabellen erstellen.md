@@ -408,9 +408,9 @@ HSLA ist eine weitere Variante
 
 ## Formatierung Text ohne Tabelle
 
-Die ["Utility Classes"](https://mmistakes.github.io/minimal-mistakes/docs/utility-classes/) von Kramedown werden aktuell in keinem meiner Browser interpretiert.  
+Die ["Utility Classes"](https://mmistakes.github.io/minimal-mistakes/docs/utility-classes/) von Kramedown werden aktuell in keinem meiner Browser interpretiert. Ausgenomen die Textausrichtung. Hier eine Auswahl zum selber testen.
 
-Text ausrichten  
+**Text ausrichten**  
 
 Transform text with capitalization classes via HTML:
 
@@ -431,7 +431,7 @@ Uppercased text
 Capitalized text
 {: .text-capitalize}
 
-Textformatierung  
+**Textformatierung**  
 
 Left aligned text
 {: .text-left}
@@ -448,15 +448,35 @@ Justified text.
 No wrap text.
 {: .text-nowrap}
 
-Buttons  
+**Buttons**  
 
-<a href="#" class="btn btn--primary">Link Text</a>
-<a href="#" class="btn btn--success">Link Text</a>
-<a href="#" class="btn btn--warning">Link Text</a>
-<a href="#" class="btn btn--danger">Link Text</a>
-<a href="#" class="btn btn--info	">Link Text</a>
-<a href="#" class="btn btn--inverse">Link Text</a>
-<a href="#" class="btn btn--light-outline">Link Text</a>
+<a href="#" class="btn btn--primary">Link Text</a>  
+
+<a href="#" class="btn btn--success">Link Text</a>  
+
+<a href="#" class="btn btn--warning">Link Text</a>  
+
+<a href="#" class="btn btn--danger">Link Text</a>  
+
+<a href="#" class="btn btn--info	">Link Text</a>  
+
+<a href="#" class="btn btn--inverse">Link Text</a>  
+
+<a href="#" class="btn btn--light-outline">Link Text</a>  
+
+Mit der Notice Class können verschiedenfarbige Hintergrundfarbe festgelegt werden. Was mir mit CSS nicht gelang.  
+
+Watch out! This paragraph of text has been emphasized with the {: .notice} class.
+
+Watch out! This paragraph of text has been emphasized with the {: .notice--primary} class.
+
+Watch out! This paragraph of text has been emphasized with the {: .notice--info} class.
+
+Watch out! This paragraph of text has been emphasized with the {: .notice--warning} class.
+
+Watch out! This paragraph of text has been emphasized with the {: .notice--success} class.
+
+Watch out! This paragraph of text has been emphasized with the {: .notice--danger} class.
 
 
 ## Fazit

@@ -10,14 +10,6 @@ Meine Berufsnetzwerk ist [Linkedin](https://www.linkedin.com/in/peter-gyger-89aa
 
 Mit dem Sinclair ZX 81 begann meine Faszination für Computer, Netzwerke und Technologien. "Computer" fordern meinen Intellekt auf vielfältige und freundliche Art täglich heraus. Und es wird spannender und spannender...
 
-<style type="text/css">
-    table {
-        font-family: 'Cascadia Code', 'Fira Code', Consolas, 'Courier New', Courier, monospace;
-        font-size: 22px;
-        white-space: nowrap;
-        background-color: rgba(241,128,128,1)
-    }
-</style>  
 <table>
     <tr>
         <th>80er Jahre (Mainframe)</th>  
@@ -25,14 +17,6 @@ Mit dem Sinclair ZX 81 begann meine Faszination für Computer, Netzwerke und Tec
 </table>  
  In den 80er Jahren stieg ich bei der SBG (UBS) als Operator für Unisys Mainframes ein und wurde "System Controller" (SIC / SWIFT / etc). Die Bank bot uns viele Möglichkeiten sich weiterzuzbilden. Wir erhielten die ersten Sperry AT PCs. Den ersten Compac 386, Software über Norton bis zu Lotus 123 / Symphony oder DBase 3Plus (relationale DB). Also sehr gute Gründe auch in der Freizeit viele Stunden im Geschäft zu verbringen...  
 
-<style type="text/css">
-    table {
-        font-family: 'Cascadia Code', 'Fira Code', Consolas, 'Courier New', Courier, monospace;
-        font-size: 30px;
-        white-space: nowrap;
-        background-color: rgba(205,92,92,1)
-    }
-</style>  
 <table>
     <tr>
         <th>90er Jahre (PC / LAN / Projekte)</th>  
@@ -48,14 +32,6 @@ Jahr 2000 Problem: Diverse MS Office Eigenentwicklungen auf das Problem (Jahr =4
 
 Freelancer. Einsätze in verschiedenen Projekten rund um Windows, Systemtechnik und MS Applikationen. 
 
-<style type="text/css">
-    table {
-        font-family: 'Cascadia Code', 'Fira Code', Consolas, 'Courier New', Courier, monospace;
-        font-size: 30px;
-        white-space: nowrap;
-        background-color: rgba(255,0,0,1)
-    }
-</style>  
 <table>
     <tr>
         <th>2006 (WAN)</th>  
@@ -64,14 +40,6 @@ Freelancer. Einsätze in verschiedenen Projekten rund um Windows, Systemtechnik 
 
 WAN (Modem / Telefonzentralen, Leitungswerte / etc.) Netzwerk Support für Endkunden und KMU. Ergänzt mit (Remote-) Support unterschiedlichster technischen Fragen zu Netzwerken (Fibre, DSL, WLAN, NW-Hardware, etc.) und Anwendungen unter IOS, MAC, Android und Windows
 
-<style type="text/css">
-    table {
-        font-family: 'Cascadia Code', 'Fira Code', Consolas, 'Courier New', Courier, monospace;
-        font-size: 30px;
-        white-space: nowrap;
-        background-color: rgba(178,34,34,1)
-    }
-</style>  
 <table>
     <tr>
         <th>2012 (ICT)</th>  
