@@ -408,12 +408,16 @@ HSLA ist eine weitere Variante
 
 ## Formatierung Text ohne Tabelle
 
+Die ["Utility Classes"](https://mmistakes.github.io/minimal-mistakes/docs/utility-classes/) von Kramedown werden aktuell in keinem meiner Browser interpretiert.  
+
+Text ausrichten  
+
 Transform text with capitalization classes via HTML:
 
-<p class="text-lowercase">Lowercased text.</p>
-<p class="text-uppercase">Uppercased text.</p>
-<p class="text-capitalize">Capitalized text.</p>
-<p class="text-truncate">Truncated text.</p>
+<p class="lowercase">Lowercased text.</p>
+<p class="uppercase">Uppercased text.</p>
+<p class="capitalize">Capitalized text.</p>
+<p class="truncate">Truncated text.</p>
 <p class="small">Small text.</p>
 
 Or with Kramdown:
@@ -427,9 +431,32 @@ Uppercased text
 Capitalized text
 {: .text-capitalize}
 
+Textformatierung  
 
+Left aligned text
+{: .text-left}
 
+Center aligned text.
+{: .text-center}
 
+Right aligned text.
+{: .text-right}
+
+Justified text.
+{: .text-justify}
+
+No wrap text.
+{: .text-nowrap}
+
+Buttons  
+
+<a href="#" class="btn btn--primary">Link Text</a>
+<a href="#" class="btn btn--success">Link Text</a>
+<a href="#" class="btn btn--warning">Link Text</a>
+<a href="#" class="btn btn--danger">Link Text</a>
+<a href="#" class="btn btn--info	">Link Text</a>
+<a href="#" class="btn btn--inverse">Link Text</a>
+<a href="#" class="btn btn--light-outline">Link Text</a>
 
 
 ## Fazit
