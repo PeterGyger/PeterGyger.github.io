@@ -406,6 +406,33 @@ HSLA ist eine weitere Variante
     </tr>
 </table>
 
+## Formatierung Text ohne Tabelle
+
+Transform text with capitalization classes via HTML:
+
+<p class="text-lowercase">Lowercased text.</p>
+<p class="text-uppercase">Uppercased text.</p>
+<p class="text-capitalize">Capitalized text.</p>
+<p class="text-truncate">Truncated text.</p>
+<p class="small">Small text.</p>
+
+Or with Kramdown:
+
+Lowercased text
+{: .text-lowercase}
+
+Uppercased text
+{: .text-uppercase}
+
+Capitalized text
+{: .text-capitalize}
+
+
+
+
+
+
+## Fazit
 
 Mit dem ["HTML Table Style Generator"](http://tablestyler.com) von Eli Geske können auch "nicht Webentwickler" wie ich sich schöne CSS Tabellen Design zusammen klicken. Danke an dieser Stelle an Eli Geske für den tollen Webservice!  
 
