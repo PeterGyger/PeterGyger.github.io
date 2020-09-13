@@ -269,5 +269,6 @@ Die Titel der Spalten (First / Second / ...) werden von Markdown automatisch dun
 
 ## Meta
 
+Version:    1.5
 Erstellt:		21. April 2019  
-Modifiziert:	2. September 2020
+Modifiziert:	10. September 2020
