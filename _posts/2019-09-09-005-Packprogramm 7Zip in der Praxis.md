@@ -20,7 +20,7 @@ Die Version 7za fand ich auf der ["Source Forge"](https://www.7-zip.org/a/7za920
 
 7za.exe unterstützt nur die Formate 7z, lzma, cab, zip, gzip, bzip2, Z and tar. Externe module werden nicht unterstützt. Wie üblich stehen die Details in der Datei "Readme.txt" des ausgepackten Verzeichnisses.  
 
-Dieser Post handelt von CLI Beispielen in der Praxis. Der Aufruf des Programmes erfolgt ohne Pfadangabe, da ich alle zusätzlichen Programme ("Tools") in einem Verzeichnis abgelegt habe, dass in der "Path" Angabe integriert ist.  
+Dieser Post handelt von CLI Beispielen in der Praxis. Der Aufruf des Programmes erfolgt ohne Pfadangabe, da ich alle zusätzlichen Programme ("Tools") in einem Verzeichnis abgelegt habe, dass in der "Path" Angabe integriert ist. Natürlich funktioniert es auch in einer anderen Shell wie "Powershell"  .
 
 ### Syntax  
 
@@ -207,5 +207,5 @@ Die Beispiele wurden während des schreibens mit 7-Zip Version 19 unter Windows 
 ## Meta
 
 Erstellt:		12. September 2019  
-Modifiziert:	10. Oktober 2019
+Modifiziert:	20. Oktober 2019
 
