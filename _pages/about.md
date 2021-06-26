@@ -58,11 +58,11 @@ PC / LAN Welt hat sich zur ICT gewandelt. Komplexer und spannender als zuvor. Cl
 </style>  
 <table>
     <tr>
-        <th>2019 (Auf dem Weg)</th>
+        <th>2019 Cisco - Routing & Switching</th>
     </tr>
 </table>  
 
-Weiterbildungen und Orientierung am Markt. Die Zukunft ist noch nicht geschrieben...
+Die nächsten Jahre fokusiere ich mich die Produkte / Services der Firma Cisco. Das CCNA Bootcamp war ein Einstieg. Acht Monate Einsatz in einem Projekt, wo der Enterprise Dienstleister die Switches und APs einer Grossbank ersetze war der nächste Schritt. Cisco DNA, SD-Access sind spannende Ideen von Cisco. Die Zukunft ist noch nicht geschrieben...
 {: .notice--success} 
 
 ### Kontakt
